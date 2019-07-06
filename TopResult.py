@@ -13,8 +13,8 @@ response = requests.get(URL, headers = {'User-Agent' : agent})
 soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
 #Excluding sponsored content from search results
-sponsored = True
-i=0
+sponsored, i = True, 0
+
 while sponsored:
     if soup.findAll("span", {"class": "a-size-base a-color-secondary"})[i].text == "Sponsored":
         sponsored=True
@@ -24,7 +24,7 @@ while sponsored:
 
 
 #Title of the product
-title = soup.findAll("a", {"class": "a-link-normal a-text-normal"})[i].text
+title = soup.findAll("a", {"class": "a-link-normal a-text-normal"})[i].text.strip()
 
 #Product's page
 productAddress = soup.findAll("a", {"class": "a-link-normal a-text-normal"})[i]['href']
@@ -43,11 +43,17 @@ imageLink = soup.find('img', attrs = {'srcset' : True})["src"]
 response = requests.get(productURL, headers = {'User-Agent' :agent})
 soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
+#Rating of the product
 rating=soup.find('span', {'class':'a-icon-alt'}).text
 
-
+print("")
 print(rating)
+print("")
 print(price)
+print("")
 print(title)
+print("")
 print(productURL)
+print("")
 print(imageLink)
+print("")
