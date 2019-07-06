@@ -1,8 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
+product = "penicls"
+
 #Search URL
-URL = 'https://www.amazon.ca/s?k=a7s'
+URL = 'https://www.amazon.ca/s?k=' + product
 
 #Requesting the page 
 response = requests.get(URL, headers = {'User-Agent' : 'Mozilla/5.0'})
