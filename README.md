@@ -3,4 +3,4 @@
 ```
 pip install requests bs4
 ```
-Python, BeautifulSoup, Requests
+Python 3, BeautifulSoup, Requests
