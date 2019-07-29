@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #Product to be searched
-product = "notebook"
+product = "penicl"
 
 #Agent to request content
 agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
