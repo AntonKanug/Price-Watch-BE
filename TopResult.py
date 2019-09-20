@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #Product to be searched
-product = "penicl"
+product = "water"
 
 #Agent to request content
 agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
@@ -75,5 +75,9 @@ print("")
 print(imageURL)
 print("")
 
-webbrowser.open(productURL)
-webbrowser.open(imageURL)
+listPrices= open("list.txt","w")
+listPrices.write("This is line" + productTitle)
+listPrices.close() 
+
+# webbrowser.open(productURL)
+# webbrowser.open(imageURL)
