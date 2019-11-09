@@ -10,6 +10,8 @@ from bs4 import BeautifulSoup
 import json
 from priceChecker import priceChecker
 from newProduct import newProduct
+from pricePlot import pricePlot
 
-newProduct("pencil")
-#priceChecker()
+# newProduct("pencil")
+# priceChecker()
+pricePlot('https://www.amazon.ca/VicTsing-Wireless-Receiver-Adjustment-Computer/dp/B01563HW6U/ref=sr_1_3?keywords=mouse&qid=1573326208&sr=8-3')
