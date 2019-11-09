@@ -8,12 +8,12 @@ import webbrowser
 import time
 import requests
 from bs4 import BeautifulSoup
-
+import json
 #Product to be searched
-product = "water"
+product = "overwatch"
 
 #Agent to request content
-agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'
 
 #Search URL
 URL = 'https://www.amazon.ca/s?k=' + product
@@ -75,9 +75,19 @@ print("")
 print(imageURL)
 print("")
 
-listPrices= open("list.txt","w")
-listPrices.write("This is line" + productTitle)
-listPrices.close() 
+with open('data.json', mode='r', encoding='utf-8') as feedsjson:
+    feeds = json.load(feedsjson)
+
+with open('data.json', mode='w', encoding='utf-8') as feedsjson:
+    entry = {'title': productTitle, 
+            'price': float(productPrice[5:]),
+            'rating': rating, 
+            'URL': productURL,
+            'image': imageURL}
+    feeds.append(entry)
+    json.dump(feeds, feedsjson, indent=2)
+
+
 
 # webbrowser.open(productURL)
 # webbrowser.open(imageURL)
