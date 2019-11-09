@@ -3,6 +3,11 @@
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
     "price": [
       16.77,
+      16.77,
+      16.77,
+      16.77,
+      16.77,
+      16.77,
       16.77
     ],
     "rating": 4.4,
@@ -14,6 +19,11 @@
     "price": [
       20.99,
       20.99,
+      20.99,
+      20.99,
+      20.99,
+      20.99,
+      20.99,
       20.99
     ],
     "rating": 3.8,
@@ -23,6 +33,11 @@
   {
     "title": "Anne: Season 1",
     "price": [
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
       10.0
     ],
     "rating": 4.4,
@@ -32,6 +47,11 @@
   {
     "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Anne pro (Gateron Brown, Black)",
     "price": [
+      138.99,
+      138.99,
+      138.99,
+      138.99,
+      138.99,
       138.99
     ],
     "rating": "out of 5 stars",
@@ -42,10 +62,37 @@
     "title": "Corsair CH-9304111-NA Scimitar Pro Gaming Mouse, Backlit RGB Led, Black Side Panel, Optical",
     "price": [
       96.54,
+      96.54,
+      96.54,
+      96.54,
+      96.54,
+      96.54,
       96.54
     ],
     "rating": 3.7,
     "URL": "https://www.amazon.ca/Corsair-CH-9304111-NA-Scimitar-Backlit-Optical/dp/B01MU3DZYN/ref=sr_1_3?keywords=corsair+mouse&qid=1573324170&sr=8-3",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61S4llvgPZL._AC_SY450_.jpg"
+  },
+  {
+    "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
+    "price": [
+      55.77,
+      55.77,
+      55.77
+    ],
+    "rating": 4.1,
+    "URL": "https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573326183&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/31g56hlWXpL._AA260_.jpg"
+  },
+  {
+    "title": "VicTsing 2.4G Wireless Mouse, [Update to Latest Version] 6 Buttons, Nano Receiver, 15 Month Battery Life, 2400 DPI",
+    "price": [
+      15.79,
+      15.79,
+      15.79
+    ],
+    "rating": 4.5,
+    "URL": "https://www.amazon.ca/VicTsing-Wireless-Receiver-Adjustment-Computer/dp/B01563HW6U/ref=sr_1_3?keywords=mouse&qid=1573326208&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61y5xxDVavL._SY355_.jpg"
   }
 ]
