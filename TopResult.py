@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 #Product to be searched
-product = "overwatch"
+product = "pencil"
 
 #Agent to request content
 agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'
@@ -63,25 +63,13 @@ imageURLScraped = soup.find('img', {"class": 'a-dynamic-image'})['data-a-dynamic
 imageURLList = imageURLScraped.split("\"") #Due to multiple sizes of images spliting to select one
 imageURL = imageURLList[1]
 
-print("")
-print(rating)
-print("")
-print(productPrice)
-print("")
-print(productTitle)
-print("")
-print(productURL)
-print("")
-print(imageURL)
-print("")
-
 with open('data.json', mode='r', encoding='utf-8') as feedsjson:
     feeds = json.load(feedsjson)
 
 with open('data.json', mode='w', encoding='utf-8') as feedsjson:
     entry = {'title': productTitle, 
             'price': float(productPrice[5:]),
-            'rating': rating, 
+            'rating': float(rating[0:4]), 
             'URL': productURL,
             'image': imageURL}
     feeds.append(entry)
