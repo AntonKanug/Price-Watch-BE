@@ -1,3 +1,10 @@
+'''
+Anton Kanugalwattage
+Nov 9, 2019
+Adding New Product
+Amazon Price Watch Application
+'''
+
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -34,9 +41,6 @@ def newProduct(product):
     productURL = 'https://www.amazon.ca' + productAddress
 
 
-    ###################################
-
-
     ##Requesting the product page 
     response = requests.get(productURL, headers = {'User-Agent' : agent})
     soup = BeautifulSoup(response.text, "lxml") #Intializing soup
@@ -56,13 +60,15 @@ def newProduct(product):
     imageURL = imageURLList[1]
 
     ##JSON 
+    #Reading data.json file
     with open('data.json', mode='r', encoding='utf-8') as listContent:
         content = json.load(listContent)
-        productInList = False
 
+    #Adding the product to data.json file
     with open('data.json', mode='w', encoding='utf-8') as listContent:
-        for i in content:
-            if i['title'] == productTitle:
+        productInList = False
+        for product in content:
+            if product['title'] == productTitle:
                 productInList = True
 
         if not productInList:
