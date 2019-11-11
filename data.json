@@ -3,6 +3,7 @@
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
     "price": [
       16.77,
+      16.77,
       16.77
     ],
     "rating": 4.4,
@@ -12,6 +13,7 @@
   {
     "title": "Flow Alkaline Spring Water, 100% Natural Alkaline Water, Eco-Friendly Packaging, Refreshing Taste, Boxed Mineral Water, Natural Electrolytes, Water with pH, Non-GMO, BPA-Free, Pack of 6 x 1L",
     "price": [
+      20.99,
       20.99,
       20.99
     ],
@@ -23,6 +25,7 @@
     "title": "Anne: Season 1",
     "price": [
       10.0,
+      10.0,
       10.0
     ],
     "rating": 4.4,
@@ -30,20 +33,11 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/81DEEfZuHDL._AC_SX385_.jpg"
   },
   {
-    "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Anne pro (Gateron Brown, Black)",
-    "price": [
-      138.99,
-      138.99
-    ],
-    "rating": "out of 5 stars",
-    "URL": "https://www.amazon.ca/Anne-Mechanical-Gaming-Keyboard-Backlit/dp/B07M66R9DG/ref=sr_1_1?keywords=anne_pro&qid=1573324131&sr=8-1",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/6140akv6t4L._AC_SX425_.jpg"
-  },
-  {
     "title": "Corsair CH-9304111-NA Scimitar Pro Gaming Mouse, Backlit RGB Led, Black Side Panel, Optical",
     "price": [
       96.54,
-      96.54
+      96.54,
+      96.96
     ],
     "rating": 3.7,
     "URL": "https://www.amazon.ca/Corsair-CH-9304111-NA-Scimitar-Backlit-Optical/dp/B01MU3DZYN/ref=sr_1_3?keywords=corsair+mouse&qid=1573324170&sr=8-3",
@@ -53,7 +47,8 @@
     "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
     "price": [
       55.77,
-      55.77
+      55.77,
+      47.98
     ],
     "rating": 4.1,
     "URL": "https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573326183&sr=8-3",
@@ -62,6 +57,7 @@
   {
     "title": "VicTsing 2.4G Wireless Mouse, [Update to Latest Version] 6 Buttons, Nano Receiver, 15 Month Battery Life, 2400 DPI",
     "price": [
+      15.79,
       15.79,
       15.79
     ],
@@ -73,6 +69,7 @@
     "title": "Sparkling Ice Orange Mango Sparkling Water Beverage, 12 Count",
     "price": [
       16.69,
+      16.69,
       16.69
     ],
     "rating": 4.3,
@@ -83,10 +80,20 @@
     "title": "Nestea Lemon, 341mL cans, Pack of 12",
     "price": [
       3.98,
+      3.98,
       3.98
     ],
     "rating": 4.6,
     "URL": "https://www.amazon.ca/Nestea-Lemon-341mL-cans-Pack/dp/B0771SK6FZ/ref=sr_1_2?keywords=orange+juice&qid=1573331243&sr=8-2",
     "image": "https://images-na.ssl-images-amazon.com/images/I/810cQsDuhBL._AC_SX466_.jpg"
+  },
+  {
+    "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Obins (Khail Box White, Black)",
+    "price": [
+      175.0
+    ],
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Anne-Mechanical-Gaming-Keyboard-Backlit/dp/B07MDK17YF/ref=sr_1_1?keywords=anne+pro&qid=1573500963&sr=8-1",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/6140akv6t4L._SX355_.jpg"
   }
 ]

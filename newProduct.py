@@ -53,7 +53,10 @@ def newProduct(product):
 
     #Rating of the product
     rating=soup.find('span', {'class':'a-icon-alt'}).text
-
+    if rating[0]=='o':
+        rating = 0
+    else:
+        rating = float(rating[0:4])
     ##Image of the product
     imageURLScraped = soup.find('img', {"class": 'a-dynamic-image'})['data-a-dynamic-image']
     imageURLList = imageURLScraped.split("\"") #Due to multiple sizes of images spliting to select one
@@ -74,7 +77,7 @@ def newProduct(product):
         if not productInList:
             entry = {'title': productTitle, 
                     'price': [float(productPrice[5:])],
-                    'rating': float(rating[0:4]), 
+                    'rating': rating, 
                     'URL': productURL,
                     'image': imageURL}
             content.append(entry)

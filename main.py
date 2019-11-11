@@ -13,6 +13,6 @@ from priceChecker import priceChecker
 from newProduct import newProduct
 from pricePlot import pricePlot
 
-newProduct("beats studio")
+newProduct("anne pro")
 #priceChecker()
-pricePlot('https://www.amazon.ca/VicTsing-Wireless-Receiver-Adjustment-Computer/dp/B01563HW6U/ref=sr_1_3?keywords=mouse&qid=1573326208&sr=8-3')
+#pricePlot('https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573326183&sr=8-3')
