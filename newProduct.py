@@ -75,8 +75,9 @@ def newProduct(product):
                 productInList = True
 
         if not productInList:
-            entry = {'title': productTitle, 
-                    'price': [float(productPrice[5:])],
+            entry = { 'id': len(content), 
+                    'title': productTitle, 
+                    'price': [float(productPrice[5:].replace(',',''))],
                     'rating': rating, 
                     'URL': productURL,
                     'image': imageURL}
