@@ -24,6 +24,6 @@ def priceChecker ():
             soup = BeautifulSoup(response.text, "lxml")  #Intializing soup
             productPrice = soup.find('span', {'class':'a-color-price'}).text.strip()  #Price of the product
 
-            product['price'].append(float(productPrice[5:]))
+            product['price'].append(float(productPrice[5:].replace(',','')))
 
         json.dump(content, listContent, indent=2)
