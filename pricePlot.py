@@ -7,10 +7,12 @@ def pricePlot (URL):
         for i in content:
             if i['URL'] == URL:
                 prices = i['price']
+                title = i['title']
     x = []
     for i in range(len(prices)):
         x.append(i)
 
+    pylab.figure(num=title)
     pylab.plot(x,prices)
     pylab.xlabel('days')
     pylab.ylabel('Prices')
