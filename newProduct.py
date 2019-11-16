@@ -1,7 +1,7 @@
 '''
 Anton Kanugalwattage
 Nov 9, 2019
-Adding New Product
+Function for adding New Product
 Amazon Price Watch Application
 '''
 
@@ -10,6 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
+##User Agent
 agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'
 
 def newProduct(product):
@@ -23,7 +24,6 @@ def newProduct(product):
 
     #Excluding sponsored content from search results
     sponsored, i = True, 0
-
     while sponsored:
         if soup.findAll("span", {"class": "a-size-base a-color-secondary"})[i].text == "Sponsored": #Checking if sponsored
             sponsored=True
@@ -66,14 +66,16 @@ def newProduct(product):
     #Reading data.json file
     with open('data.json', mode='r', encoding='utf-8') as listContent:
         content = json.load(listContent)
-
-    #Adding the product to data.json file
+    
+    ##Adding the product to data.json file
     with open('data.json', mode='w', encoding='utf-8') as listContent:
         productInList = False
+        #Checking if entered product is in database
         for product in content:
             if product['title'] == productTitle:
                 productInList = True
 
+        #Adding product if not in databse
         if not productInList:
             entry = { 'id': len(content), 
                     'title': productTitle, 
@@ -83,4 +85,5 @@ def newProduct(product):
                     'image': imageURL}
             content.append(entry)
 
-        json.dump(content, listContent, indent=2)
+        #JSON dumping data
+        json.dump(content, listContent, indent=2) 
