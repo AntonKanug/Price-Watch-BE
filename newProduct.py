@@ -9,11 +9,12 @@ import time
 import requests
 from bs4 import BeautifulSoup
 import json
+import datetime
 
 ##User Agent
 agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'
 
-def newProduct(product):
+def newProduct(product, email):
 
     #Search URL
     URL = 'https://www.amazon.ca/s?k=' + product
@@ -74,16 +75,33 @@ def newProduct(product):
         for product in content:
             if product['title'] == productTitle:
                 productInList = True
+                print("📦  Product %s is already in databse" % product['title'])
+
+                #Checking if email already in list
+                emailInList = False
+                for userEMail in product['emailList']:
+                    if userEMail == email:
+                        emailInList = True
+                        print("📤  %s is already in email list" % email)
+                #If not in list add it to the email list
+                if not emailInList:
+                    product['emailList'].append(email)
+                    print("📤  %s is added to email list" % email)
 
         #Adding product if not in databse
         if not productInList:
             entry = { 'id': len(content), 
                     'title': productTitle, 
-                    'price': [float(productPrice[5:].replace(',',''))],
+                    'priceList': [{
+                        'price': float(productPrice[5:].replace(',','')), 
+                        'dateTime': str(datetime.datetime.now())
+                        }],
+                    'emailList': [email],
                     'rating': rating, 
                     'URL': productURL,
                     'image': imageURL}
             content.append(entry)
+            print("📦  Product %s is added to databse" % productTitle)
 
         #JSON dumping data
         json.dump(content, listContent, indent=2) 
