@@ -13,7 +13,7 @@ def pricePlot (URL):
         x.append(i)
 
     pylab.figure(num=title)
-    pylab.plot(x,prices)
+    pylab.plot(x,prices,'.-')
     pylab.xlabel('days')
     pylab.ylabel('Prices')
     pylab.grid()
