@@ -13,11 +13,14 @@ def pricePlot (URL):
         content = json.load(listContent)
         #Finding the product
         productFound = False
+        prices = []
         for i in content:
             if i['URL'] == URL:
-                prices = i['price']
+                for priceObj in i['priceList']:
+                    prices.append(priceObj['price'])
                 title = i['title']
                 productFound = True
+                break
 
     if productFound:
         #Creating x axis
