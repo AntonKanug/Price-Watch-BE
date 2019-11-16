@@ -7,7 +7,7 @@ Amazon Price Watch Application
 
 import smtplib
 
-def sendEMail(email, URL):
+def sendEMail(emailList, URL):
     ##Initializing  Server
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
@@ -22,13 +22,14 @@ def sendEMail(email, URL):
     body = 'Check link: \n'+ URL
     msg = f"Subject: {subject}\n\n{body}"
 
-    ##Sending E-Mail
-    server.sendmail(
-        'noreplyPriceWatch@gmail.com',
-        email,
-        msg
-    )
-    print("Email Sent to:", email)
+    for email in emailList:
+        ##Sending E-Mail
+        server.sendmail(
+            'noreplyPriceWatch@gmail.com',
+            email,
+            msg
+        )
+        print("📤  Email Sent to: %s" % email)
 
     ##Quit the server
     server.quit
