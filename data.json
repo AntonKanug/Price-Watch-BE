@@ -1,167 +1,96 @@
 [
   {
-    "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
-    "price": [
-      16.77,
-      16.77,
-      16.77,
-      16.77,
-      16.77,
-      16.77,
-      16.77,
-      16.77,
-      16.77
-    ],
-    "rating": 4.4,
-    "URL": "https://www.amazon.ca/AmazonBasics-Presharpened-Wood-Cased-Pencils/dp/B071JM699P/ref=sxin_4_ac_d_rm?ac_md=0-0-cGVuY2ls-ac_d_rm&keywords=pencil&pd_rd_i=B071JM699P&pd_rd_r=ba3c3512-ecb0-4199-8d38-fd31362d0078&pd_rd_w=DLVJX&pd_rd_wg=ormPT&pf_rd_p=32f73cf7-864e-460b-b757-f2bb4c3f56d6&pf_rd_r=GGJSF362VCK2TSQBAC54&psc=1&qid=1573323596",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81D-mcEb58L._SX450_.jpg"
-  },
-  {
-    "title": "Flow Alkaline Spring Water, 100% Natural Alkaline Water, Eco-Friendly Packaging, Refreshing Taste, Boxed Mineral Water, Natural Electrolytes, Water with pH, Non-GMO, BPA-Free, Pack of 6 x 1L",
-    "price": [
-      20.99,
-      20.99,
-      20.99,
-      20.99,
-      20.99,
-      20.99,
-      20.99,
-      20.99,
-      20.99
-    ],
-    "rating": 3.8,
-    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A10134834DY25A48CMFY&url=%2FFlow-Water-Naturally-Recyclable-Paperboard%2Fdp%2FB01LW7QFHP%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dwater%26qid%3D1573323641%26sr%3D8-2-spons%26psc%3D1%26smid%3DA269XQC09DMMT5&qualifier=1573323641&id=5482198274675915&widgetName=sp_atf",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81m030kUo4L._AC_SX522_.jpg"
-  },
-  {
-    "title": "Anne: Season 1",
-    "price": [
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0
-    ],
-    "rating": 4.4,
-    "URL": "https://www.amazon.ca/Anne-Season-1-Amybeth-McNulty/dp/B075KZDKT8/ref=sr_1_4?keywords=anne&qid=1573324028&sr=8-4",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81DEEfZuHDL._AC_SX385_.jpg"
-  },
-  {
-    "title": "Corsair CH-9304111-NA Scimitar Pro Gaming Mouse, Backlit RGB Led, Black Side Panel, Optical",
-    "price": [
-      96.54,
-      96.54,
-      96.96,
-      96.96,
-      96.96,
-      97.36,
-      97.36,
-      84.4,
-      98.22
-    ],
-    "rating": 3.7,
-    "URL": "https://www.amazon.ca/Corsair-CH-9304111-NA-Scimitar-Backlit-Optical/dp/B01MU3DZYN/ref=sr_1_3?keywords=corsair+mouse&qid=1573324170&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61S4llvgPZL._AC_SY450_.jpg"
-  },
-  {
+    "id": 0,
     "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
-    "price": [
-      55.77,
-      55.77,
-      47.98,
-      47.98,
-      50.46,
-      50.46,
-      50.46,
-      50.46,
-      50.46
+    "priceList": [
+      {
+        "price": 50.46,
+        "dateTime": "2019-11-16 10:33:20.540042"
+      },
+      {
+        "price": 50.46,
+        "dateTime": "2019-11-16 10:33:44.121152"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
     ],
     "rating": 4.1,
-    "URL": "https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573326183&sr=8-3",
+    "URL": "https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573918398&sr=8-3",
     "image": "https://images-na.ssl-images-amazon.com/images/I/31g56hlWXpL._AA260_.jpg"
   },
   {
-    "title": "VicTsing 2.4G Wireless Mouse, [Update to Latest Version] 6 Buttons, Nano Receiver, 15 Month Battery Life, 2400 DPI",
-    "price": [
-      15.79,
-      15.79,
-      15.79,
-      15.79,
-      15.79,
-      15.79,
-      15.79,
-      15.79,
-      15.79
+    "id": 1,
+    "title": "Corsair CH-9206015-NA Gaming K55 RGB Keyboard, Backlit LED",
+    "priceList": [
+      {
+        "price": 69.99,
+        "dateTime": "2019-11-16 10:33:36.686955"
+      },
+      {
+        "price": 69.99,
+        "dateTime": "2019-11-16 10:33:45.502338"
+      },
+      {
+        "price": 169.99,
+        "dateTime": "2019-11-16 10:33:45.502338"
+      }
     ],
-    "rating": 4.5,
-    "URL": "https://www.amazon.ca/VicTsing-Wireless-Receiver-Adjustment-Computer/dp/B01563HW6U/ref=sr_1_3?keywords=mouse&qid=1573326208&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61y5xxDVavL._SY355_.jpg"
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/Corsair-CH-9206015-NA-Gaming-Keyboard-Backlit/dp/B01M4LIKLI/ref=sr_1_3?keywords=corsair+keyboard&qid=1573918414&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71wSG1VzANL._AC_SX569_.jpg"
   },
   {
-    "title": "Sparkling Ice Orange Mango Sparkling Water Beverage, 12 Count",
-    "price": [
-      16.69,
-      16.69,
-      16.69,
-      16.69,
-      16.69,
-      16.69,
-      16.69,
-      16.69,
-      16.69
+    "id": 2,
+    "title": "Apple MacBook Pro MGXA2LL/A 15-inch Laptop with Retina Display (2.2 GHz Intel Core i7 Processor, 16 GB RAM, 256 GB HDD) (Renewed)",
+    "priceList": [
+      {
+        "price": 1186.64,
+        "dateTime": "2019-11-16 10:38:05.683073"
+      }
     ],
-    "rating": 4.3,
-    "URL": "https://www.amazon.ca/Sparkling-Ice-Orange-Mango-Beverage/dp/B073FSH1WT/ref=sr_1_3?keywords=orange+juice&qid=1573331154&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81eA9mgf-SL._SX466_.jpg"
-  },
-  {
-    "title": "Nestea Lemon, 341mL cans, Pack of 12",
-    "price": [
-      3.98,
-      3.98,
-      3.98,
-      3.98,
-      3.98,
-      3.98,
-      5.99,
-      5.99,
-      5.99
-    ],
-    "rating": 4.6,
-    "URL": "https://www.amazon.ca/Nestea-Lemon-341mL-cans-Pack/dp/B0771SK6FZ/ref=sr_1_2?keywords=orange+juice&qid=1573331243&sr=8-2",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/810cQsDuhBL._AC_SX466_.jpg"
-  },
-  {
-    "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Obins (Khail Box White, Black)",
-    "price": [
-      175.0,
-      175.0,
-      175.0,
-      175.0,
-      175.0,
-      175.0,
-      175.0
+    "emailList": [
+      "antondilon@gmail.com"
     ],
     "rating": 0,
-    "URL": "https://www.amazon.ca/Anne-Mechanical-Gaming-Keyboard-Backlit/dp/B07MDK17YF/ref=sr_1_1?keywords=anne+pro&qid=1573500963&sr=8-1",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/6140akv6t4L._SX355_.jpg"
+    "URL": "https://www.amazon.ca/Apple-MacBook-MGXA2LL-Processor-Refurbished/dp/B078WYC1R9/ref=sr_1_3?keywords=macbook+pro&qid=1573918683&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71pLMj07suL._SX425_.jpg"
   },
   {
-    "id": 9,
-    "title": "Apple MacBook Pro MGXA2LL/A 15-inch Laptop with Retina Display (2.2 GHz Intel Core i7 Processor, 16 GB RAM, 256 GB HDD) (Renewed)",
-    "price": [
-      1186.64,
-      1186.64,
-      1186.64,
-      1186.64,
-      1186.64
+    "id": 3,
+    "title": "Apple MacBook Air MJVM2LL/A 11.6-Inch laptop(1.6 GHz Intel i5,128 GB SSD, Integrated Intel HD Graphics 6000, Mac OS X Yosemite",
+    "priceList": [
+      {
+        "price": 550.0,
+        "dateTime": "2019-11-16 10:38:13.891566"
+      }
     ],
-    "rating": 4.1,
-    "URL": "https://www.amazon.ca/Apple-MacBook-MGXA2LL-Processor-Refurbished/dp/B078WYC1R9/ref=sr_1_3?keywords=macbook+pro&qid=1573558622&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71pLMj07suL._SX425_.jpg"
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.2,
+    "URL": "https://www.amazon.ca/Apple-MJVM2LL-11-6-Inch-Integrated-Graphics/dp/B01KIIQUFW/ref=sr_1_3?keywords=macbook+air&qid=1573918692&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/31I6HT8voHL._SX355_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "LG 38WK95C-W 38-Inch Class 21:9 Curved UltraWide WQHD+ Monitor with HDR 10 (2018)",
+    "priceList": [
+      {
+        "price": 1289.99,
+        "dateTime": "2019-11-16 10:38:25.924072"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com",
+      "antondilon2@gmail.com",
+      "antondilon3@gmail.com"
+    ],
+    "rating": 3.9,
+    "URL": "https://www.amazon.ca/LG-38WK95C-W-38-Class-UltraWide/dp/B079L4WR4T/ref=sr_1_fkmr0_1?keywords=Samsung+49%27+monitor&qid=1573918703&sr=8-1-fkmr0",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81rbQdqbDiL._AC_SX466_.jpg"
   }
 ]
