@@ -6,10 +6,6 @@
       {
         "price": 50.46,
         "dateTime": "2019-11-16 10:33:20.540042"
-      },
-      {
-        "price": 50.46,
-        "dateTime": "2019-11-16 10:33:44.121152"
       }
     ],
     "emailList": [
@@ -26,14 +22,6 @@
       {
         "price": 69.99,
         "dateTime": "2019-11-16 10:33:36.686955"
-      },
-      {
-        "price": 69.99,
-        "dateTime": "2019-11-16 10:33:45.502338"
-      },
-      {
-        "price": 169.99,
-        "dateTime": "2019-11-16 10:33:45.502338"
       }
     ],
     "emailList": [
@@ -92,5 +80,185 @@
     "rating": 3.9,
     "URL": "https://www.amazon.ca/LG-38WK95C-W-38-Class-UltraWide/dp/B079L4WR4T/ref=sr_1_fkmr0_1?keywords=Samsung+49%27+monitor&qid=1573918703&sr=8-1-fkmr0",
     "image": "https://images-na.ssl-images-amazon.com/images/I/81rbQdqbDiL._AC_SX466_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Apple iPhone 7, GSM Unlocked , 32GB - Rose Gold (Renewed)",
+    "priceList": [
+      {
+        "price": 280.0,
+        "dateTime": "2019-11-16 17:42:05.145102"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com",
+      "antondilon2@gmail.com"
+    ],
+    "rating": 3.7,
+    "URL": "https://www.amazon.ca/Apple-iPhone-GSM-Unlocked-32GB/dp/B01N9YOF3R/ref=sr_1_3?keywords=iphone+7&qid=1573944123&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71x3e0x%2BM2L._SX342_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Acer Predator Helios 300 Gaming Laptop PC, 15.6inch Full HD 144Hz 3ms IPS Display, Intel i7-9750H, GTX 1660 Ti 6GB, 16GB DDR4",
+    "priceList": [
+      {
+        "price": 1599.99,
+        "dateTime": "2019-11-16 17:43:07.247753"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com",
+      "antondilon2@gmail.com"
+    ],
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Acer-Predator-15-6inch-Display-i7-9750H/dp/B07QXLFLXT/ref=sr_1_3?keywords=acer+predator+300&qid=1573944185&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/712a83USPrL._AC_SX425_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Microsoft Surface Laptop Intel Core i5 7th Gen 8GB RAM 256GB SSD Win 10 Platinum (Renewed)",
+    "priceList": [
+      {
+        "price": 879.0,
+        "dateTime": "2019-11-16 17:44:14.575983"
+      }
+    ],
+    "emailList": [
+      "antondilon2@gmail.com",
+      "antondilon@gmail.com"
+    ],
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Microsoft-Surface-Laptop-Intel-Platinum/dp/B07FCZ3HG7/ref=sr_1_3?keywords=microsoft+surface&qid=1573944252&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71YWn3XKVkL._AC_SX679_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
+    "priceList": [
+      {
+        "price": 16.77,
+        "dateTime": "2019-11-16 17:44:36.202089"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/AmazonBasics-Presharpened-Wood-Cased-Pencils/dp/B071JM699P/ref=sr_1_5?keywords=pencil&qid=1573944272&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81D-mcEb58L._AC_SX522_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
+    "priceList": [
+      {
+        "price": 119.99,
+        "dateTime": "2019-11-16 17:45:19.093077"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A04448471KK4GL9YYZQLP&url=%2F2K-57505-Borderlands-Super-Deluxe%2Fdp%2FB07V38MQZP%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dps4%26qid%3D1573944317%26sr%3D8-2-spons%26psc%3D1&qualifier=1573944317&id=8501588498947539&widgetName=sp_atf",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/911uWwnshOL._SX425_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "PlayStation 4 - 1TB Slim - Console Edition",
+    "priceList": [
+      {
+        "price": 366.14,
+        "dateTime": "2019-11-16 17:45:32.057924"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com",
+      "antondilon2@gmail.com"
+    ],
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/Playstation-4-1TB-Slim-Console/dp/B074LRF639/ref=sr_1_3?keywords=ps4+console&qid=1573944329&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/715RBdgZtHL._SX425_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Apple MMEF2AM/A AirPods Wireless Bluetooth Headset for iPhones with iOS 10 or Later White",
+    "priceList": [
+      {
+        "price": 250.93,
+        "dateTime": "2019-11-16 17:46:51.836071"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Apple-MMEF2AM-AirPods-Wireless-Bluetooth/dp/B01MQWUXZS/ref=sr_1_5?keywords=airpods&qid=1573944409&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41DYtv1JJaL._AC_SX425_.jpg"
+  },
+  {
+    "id": 12,
+    "title": "LG 34UM69G-B 34\" 21:9 UltraWide IPS Monitor with 1ms Motion Blur Reduction and FreeSync, Black",
+    "priceList": [
+      {
+        "price": 419.99,
+        "dateTime": "2019-11-17 06:58:50.520555"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.5,
+    "URL": "https://www.amazon.ca/LG-34UM69G-B-34-UltraWide-Reduction/dp/B06XFXX5JH/ref=sr_1_3?keywords=LG+34+monitor&qid=1573991928&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81tjaxZL6IL._AC_SX679_.jpg"
+  },
+  {
+    "id": 13,
+    "title": "ICEBERG Water \u2013 Harvested from Newfoundland Icebergs \u2013 1L Bottle with < 5 PPM",
+    "priceList": [
+      {
+        "price": 13.97,
+        "dateTime": "2019-11-17 06:59:10.174719"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 5.0,
+    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A05202181IBS25F63BKA1&url=%2FICEBERG-Water-Harvested-Newfoundland-Icebergs%2Fdp%2FB07WNXTJNH%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dwater%26qid%3D1573991948%26sr%3D8-2-spons%26psc%3D1&qualifier=1573991948&id=7384677007132163&widgetName=sp_atf",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61AjYI5PbhL._SX385_.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Casio FX-991EX Engineering/Scientific Calculator, Black",
+    "priceList": [
+      {
+        "price": 33.71,
+        "dateTime": "2019-11-17 06:59:22.842958"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.7,
+    "URL": "https://www.amazon.ca/Casio-FX-991EX-Engineering-Scientific-Calculator/dp/B00ZZ93346/ref=sr_1_1?keywords=casio+991&qid=1573991960&sr=8-1",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71mCfR49bYL._AC_SY450_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Five Star Spiral Notebooks, 1 Subject, College Ruled Paper, 100 Sheets, 11 x 8-1/2 inches, Assorted Colors, 6 Pack (38057)",
+    "priceList": [
+      {
+        "price": 37.1,
+        "dateTime": "2019-11-17 06:59:36.618358"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 4.7,
+    "URL": "https://www.amazon.ca/Five-Star-Notebooks-Assorted-38057/dp/B01BHL3DA4/ref=sr_1_5?keywords=five+star+notebook&qid=1573991974&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61WsO5feZEL._SY450_.jpg"
   }
 ]
