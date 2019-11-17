@@ -37,4 +37,4 @@ def pricePlot (URL):
         pylab.show()
 
     else:
-        print("Product is not found in database")
+        print("📦  Product is not found in database")
