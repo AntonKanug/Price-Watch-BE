@@ -6,8 +6,9 @@ Amazon Price Watch Application
 '''
 
 import smtplib
+import json
 
-def sendEMail(emailList, URL):
+def sendEMail(id, newPrice):
     ##Initializing  Server
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
@@ -17,9 +18,18 @@ def sendEMail(emailList, URL):
     ##Login to server
     server.login('noreplyPriceWatch@gmail.com', 'hiedscgylqjcpjhd')
 
+    #JSON
+    with open('data.json', mode='r', encoding='utf-8') as listContent:
+        content = json.load(listContent)
+        
+    emailList = content[id]['emailList']
+    URL = content[id]['URL']
+    oldPrice = content[id]['priceList'][-1]['price']
+    title = content[id]['title']
+
     ##Creating Message
     subject = 'Amazon Price Watch Update!'
-    body = 'Check link: \n'+ URL
+    body = '%s\nPrice went down by %.2f%% \nNew Price: $%.2f\nOld Price: $%.2f \nCheck link: %s\n' % (title, (newPrice - oldPrice)*100/newPrice, newPrice, oldPrice, URL)
     msg = f"Subject: {subject}\n\n{body}"
 
     for email in emailList:
