@@ -76,7 +76,7 @@ def newProduct(product, email):
             for product in content:
                 if product['title'] == productTitle:
                     productInList = True
-                    print("📦  Product %s is already in databse" % product['title'])
+                    print("\n📦  Product %s is already in databse" % product['title'])
 
                     #Checking if email already in list
                     emailInList = False
@@ -88,6 +88,7 @@ def newProduct(product, email):
                     if not emailInList:
                         product['emailList'].append(email)
                         print("📤  %s is added to email list" % email)
+                    print("")
 
             #Adding product if not in databse
             if not productInList:
@@ -102,10 +103,10 @@ def newProduct(product, email):
                         'URL': productURL,
                         'image': imageURL}
                 content.append(entry)
-                print("📦  Product %s is added to databse" % productTitle)
-                print("📤  %s is added to email list" % email)
+                print("\n📦  Product %s is added to databse" % productTitle)
+                print("📤  %s is added to email list\n" % email)
             #JSON dumping data
             json.dump(content, listContent, indent=2) 
     
     except IndexError:
-        print("❌  %s not found" % product)
+        print("\n❌  %s not found\n" % product)
