@@ -11,4 +11,4 @@ Python 3, BeautifulSoup4, Requests
 
 ## Email Sample  
 
-![image1](https://github.com/AntonKanug/Price-Watch/tree/master/assets/sample)
+![image1](https://github.com/AntonKanug/Price-Watch/blob/master/assets/sample.png)
