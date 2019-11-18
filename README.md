@@ -1,6 +1,7 @@
 # Price-Watch
 
-![image0](https://github.com/AntonKanug/Price-Watch/tree/master/assets/logoTitle.png)
+
+![image0](https://github.com/AntonKanug/Price-Watch/blob/master/assets/logoTitle.png)
 
 
 ```
