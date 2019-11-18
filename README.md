@@ -1,18 +1,17 @@
-# Price-Watch
-
+# Price Watch 
 
 ![image0](https://github.com/AntonKanug/Price-Watch/blob/master/assets/logoTitle.png)
-
+### Made By Anton Kanugalawattage, 2019 
 
 ## Dependencies  
 
-Python 3, BeautifulSoup4, Requests
+BeautifulSoup4, Requests
 
 ```
 pip install requests bs4
 ```
 
 
-## Email Sample  
+## Sample Email  
 
 ![image1](https://github.com/AntonKanug/Price-Watch/blob/master/assets/sample.png)
