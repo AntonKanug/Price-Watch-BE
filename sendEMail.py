@@ -21,7 +21,8 @@ def sendEMail(id, newPrice):
         server.ehlo()
 
         ##Login to server
-        server.login('antondilon2@gmail.com', 'drpehshhdqzshmju')
+        #server.login('antondilon2@gmail.com', 'drpehshhdqzshmju')
+        server.login('noreplyPriceWatch@gmail.com', 'fjcrfaubmimqbfty')
 
         #JSON
         with open('data.json', mode='r', encoding='utf-8') as listContent:
@@ -29,14 +30,24 @@ def sendEMail(id, newPrice):
             
         emailList = content[id]['emailList']
         URL = content[id]['URL']
-        oldPrice = content[id]['priceList'][-1]['price']
+        oldPrice = content[id]['priceToCompare']
         title = content[id]['title']
         image = content[id]['image']
 
         ##Creating Message
         msg = MIMEMultipart() 
-        msg['From'] = 'antondilon2@gmail.com'
-        msg['Subject'] = 'Price of '+title+' Went Down!'
+        msg['From'] = 'Price Watch'
+
+        if newPrice < oldPrice:
+            colour = 'rgb(84, 209, 0)'
+            msg['Subject'] = 'Price of ' + title + ' Went Down to $' + str(str(newPrice)) + '!'
+            msgTitle = 'Price Went Down!'
+            sign = ''
+        else:
+            colour = 'rgb(209, 59, 0)'
+            msg['Subject'] = 'Price of ' + title+  ' Went Up to $' + str(newPrice) + '!'
+            msgTitle = 'Price Went Up!'
+            sign= '+'
         # body = '%s\nPrice changed by %.2f%% \nNew Price: $%.2f\nOld Price: $%.2f \nCheck link: %s\n' % (title, (newPrice - oldPrice)*100/newPrice, newPrice, oldPrice, URL)
         # msg.attach(MIMEText(body, 'plain')) 
         # msg.attach(image)
@@ -50,19 +61,19 @@ def sendEMail(id, newPrice):
                     <div style="padding:20px; font-family: 'Nunito Sans', sans-serif; margin-bottom: 10px; flex-wrap: wrap; flex-direction: row; display: flex" >
                         <div style="margin:auto; margin-top:20px; margin-bottom: 20px; padding: 10px; background: white; border-radius: 25px;">
 
-                        <img src=" """+ image +"""" " style="max-width:250px; margin-top: 10%;">
+                        <img src=" """+ image +"""" " style="max-width:260px; max-height:400px; margin-top: 10%;">
                         </div>
-                        <div style="margin:20px; margin:auto; margin-top:40px; max-width:360px;">
-                        <p style="font-size:30px; font-family: 'Nunito Sans', sans-serif; margin-top:0px; margin-bottom: 0px; font-weight: 800; color: #232F3E" >Price Went Down!</p>
+                        <div style="margin:20px; margin:auto; margin-top:40px; max-width:360px; padding-left: 15px;">
+                        <p style="font-size:30px; font-family: 'Nunito Sans', sans-serif; margin-top:0px; margin-bottom: 0px; font-weight: 800; color: #232F3E" >"""+msgTitle+"""</p>
                         <p style="font-size:15px; font-family: 'Nunito Sans', sans-serif; margin-top:10px; margin-bottom: 10px; font-weight: 800; color: #232F3E">"""+title+"""</p>
-                        <p style="font-size:25px; color:rgb(84, 209, 0);font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >$"""+str(newPrice)+ """</p>
-                        <p style="font-size:17px; color:rgb(84, 209, 0);font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >("""+str(round( ((newPrice-oldPrice)*100/oldPrice) ,2))+ """%)</p>
+                        <p style="font-size:25px; color:"""+colour+ """;font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >$"""+str(newPrice)+ """</p>
+                        <p style="font-size:17px; color:"""+colour+ """;font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >("""+sign+str(round( ((newPrice-oldPrice)*100/oldPrice) ,2))+ """%)</p>
                         <a
                         style="padding-top: 0px;
                                 display:inherit;
                                 font-size: 18px;
                                 height: 35px;
-                                min-width: 250px;   
+                                width: 250px;   
                                 border: 0;
                                 border-radius: 280px;
                                 font-family: 'Nunito Sans', sans-serif;
@@ -83,7 +94,7 @@ def sendEMail(id, newPrice):
                                 <p style="font-size: 13px;  margin-top: -13px; font-family: 'Nunito Sans', sans-serif; font-weight: 600;">Made by Anton Kanugalawattage, 2019</p>
                                 </div>
                             </div>
-                            <div style="height: 50px; width:100%; background:#37475A; border-radius:0px 0px 25px 25px; font-family: 'Nunito Sans', sans-serif; flex-direction: row;  flex-wrap: wrap;display: flex">
+                            <div style="height: 50px; width:100%; background:#37475A; border-radius:0px 0px 23px 23px; font-family: 'Nunito Sans', sans-serif; flex-direction: row;  flex-wrap: wrap;display: flex">
                             <div>
                                 <img src="https://i.imgur.com/hGaCEWT.png" width="auto" height="37px" style="padding:6px">
                             </div>
