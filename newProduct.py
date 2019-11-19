@@ -93,7 +93,8 @@ def newProduct(product, email):
             #Adding product if not in databse
             if not productInList:
                 entry = { 'id': len(content), 
-                        'title': productTitle, 
+                        'title': productTitle,
+                        'priceToCompare': float(productPrice[5:].replace(',','')),  
                         'priceList': [{
                             'price': float(productPrice[5:].replace(',','')), 
                             'dateTime': str(datetime.datetime.now())
