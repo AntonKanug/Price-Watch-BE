@@ -10,9 +10,10 @@ import requests
 import json
 import datetime
 from bs4 import BeautifulSoup
+import urllib.request as urllib2
 
 ##User Agent
-agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'
+agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
 
 def newProduct(product, email):
 
@@ -21,8 +22,12 @@ def newProduct(product, email):
         URL = 'https://www.amazon.ca/s?k=' + product
 
         #Requesting the serach page 
-        response = requests.get(URL, headers = {'User-Agent' : agent})
-        soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+
+        # response = requests.get(URL, headers = {'User-Agent' : agent})
+        # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+
+        response = urllib2.urlopen(URL).read()
+        soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
         #Excluding sponsored content from search results
         sponsored, i = True, 0
