@@ -23,6 +23,10 @@
       {
         "price": 49.9,
         "dateTime": "2019-11-21 05:45:29.014029"
+      },
+      {
+        "price": 49.9,
+        "dateTime": "2019-11-22 08:01:19.254403"
       }
     ],
     "emailList": [
@@ -56,6 +60,10 @@
       {
         "price": 69.99,
         "dateTime": "2019-11-21 05:45:31.015660"
+      },
+      {
+        "price": 69.99,
+        "dateTime": "2019-11-22 08:01:20.788861"
       }
     ],
     "emailList": [
@@ -89,6 +97,10 @@
       {
         "price": 1195.73,
         "dateTime": "2019-11-21 05:45:32.306397"
+      },
+      {
+        "price": 1199.39,
+        "dateTime": "2019-11-22 08:01:22.051261"
       }
     ],
     "emailList": [
@@ -123,6 +135,10 @@
       {
         "price": 550.0,
         "dateTime": "2019-11-21 05:45:33.459619"
+      },
+      {
+        "price": 550.0,
+        "dateTime": "2019-11-22 08:01:23.315728"
       }
     ],
     "emailList": [
@@ -157,6 +173,10 @@
       {
         "price": 1289.99,
         "dateTime": "2019-11-21 05:45:35.244904"
+      },
+      {
+        "price": 1289.99,
+        "dateTime": "2019-11-22 08:01:24.777009"
       }
     ],
     "emailList": [
@@ -192,6 +212,10 @@
       {
         "price": 280.0,
         "dateTime": "2019-11-21 05:45:36.573553"
+      },
+      {
+        "price": 280.0,
+        "dateTime": "2019-11-22 08:01:26.063904"
       }
     ],
     "emailList": [
@@ -226,6 +250,10 @@
       {
         "price": 1499.99,
         "dateTime": "2019-11-21 05:45:41.301181"
+      },
+      {
+        "price": 1499.99,
+        "dateTime": "2019-11-22 08:01:27.516925"
       }
     ],
     "emailList": [
@@ -260,6 +288,10 @@
       {
         "price": 849.0,
         "dateTime": "2019-11-21 05:45:42.670352"
+      },
+      {
+        "price": 849.0,
+        "dateTime": "2019-11-22 08:01:28.932431"
       }
     ],
     "emailList": [
@@ -294,6 +326,10 @@
       {
         "price": 16.77,
         "dateTime": "2019-11-21 05:45:44.142711"
+      },
+      {
+        "price": 16.77,
+        "dateTime": "2019-11-22 08:01:30.411353"
       }
     ],
     "emailList": [
@@ -306,7 +342,7 @@
   {
     "id": 9,
     "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
-    "priceToCompare": 145.97,
+    "priceToCompare": 119.99,
     "priceList": [
       {
         "price": 119.99,
@@ -327,6 +363,10 @@
       {
         "price": 145.97,
         "dateTime": "2019-11-21 05:45:47.137363"
+      },
+      {
+        "price": 119.99,
+        "dateTime": "2019-11-22 08:01:33.368759"
       }
     ],
     "emailList": [
@@ -360,6 +400,10 @@
       {
         "price": 363.99,
         "dateTime": "2019-11-21 05:45:48.665509"
+      },
+      {
+        "price": 379.99,
+        "dateTime": "2019-11-22 08:01:34.939911"
       }
     ],
     "emailList": [
@@ -394,6 +438,10 @@
       {
         "price": 249.97,
         "dateTime": "2019-11-21 05:45:50.063812"
+      },
+      {
+        "price": 249.97,
+        "dateTime": "2019-11-22 08:01:36.178213"
       }
     ],
     "emailList": [
@@ -427,6 +475,10 @@
       {
         "price": 378.55,
         "dateTime": "2019-11-21 05:45:53.486742"
+      },
+      {
+        "price": 378.55,
+        "dateTime": "2019-11-22 08:01:37.652307"
       }
     ],
     "emailList": [
@@ -460,6 +512,10 @@
       {
         "price": 13.97,
         "dateTime": "2019-11-21 05:45:54.787369"
+      },
+      {
+        "price": 13.97,
+        "dateTime": "2019-11-22 08:01:38.884270"
       }
     ],
     "emailList": [
@@ -468,130 +524,5 @@
     "rating": 5.0,
     "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A05202181IBS25F63BKA1&url=%2FICEBERG-Water-Harvested-Newfoundland-Icebergs%2Fdp%2FB07WNXTJNH%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dwater%26qid%3D1573991948%26sr%3D8-2-spons%26psc%3D1&qualifier=1573991948&id=7384677007132163&widgetName=sp_atf",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61AjYI5PbhL._SX385_.jpg"
-  },
-  {
-    "id": 14,
-    "title": "Casio FX-991EX Engineering/Scientific Calculator, Black",
-    "priceToCompare": 33.71,
-    "priceList": [
-      {
-        "price": 33.71,
-        "dateTime": "2019-11-17 06:59:22.842958"
-      },
-      {
-        "price": 33.71,
-        "dateTime": "2019-11-17 10:05:21.599323"
-      },
-      {
-        "price": 33.71,
-        "dateTime": "2019-11-18 05:32:06.661905"
-      },
-      {
-        "price": 33.71,
-        "dateTime": "2019-11-19 06:45:05.125943"
-      },
-      {
-        "price": 33.67,
-        "dateTime": "2019-11-21 05:45:56.315119"
-      }
-    ],
-    "emailList": [
-      "antondilon@gmail.com"
-    ],
-    "rating": 4.7,
-    "URL": "https://www.amazon.ca/Casio-FX-991EX-Engineering-Scientific-Calculator/dp/B00ZZ93346/ref=sr_1_1?keywords=casio+991&qid=1573991960&sr=8-1",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71mCfR49bYL._AC_SY450_.jpg"
-  },
-  {
-    "id": 15,
-    "title": "Five Star Spiral Notebooks, 1 Subject, College Ruled Paper, 100 Sheets, 11 x 8-1/2 inches, Assorted Colors, 6 Pack (38057)",
-    "priceToCompare": 37.1,
-    "priceList": [
-      {
-        "price": 37.1,
-        "dateTime": "2019-11-17 06:59:36.618358"
-      },
-      {
-        "price": 37.1,
-        "dateTime": "2019-11-17 10:05:23.363477"
-      },
-      {
-        "price": 37.1,
-        "dateTime": "2019-11-18 05:32:08.250116"
-      },
-      {
-        "price": 36.93,
-        "dateTime": "2019-11-19 06:45:06.797315"
-      },
-      {
-        "price": 36.48,
-        "dateTime": "2019-11-21 05:45:57.957236"
-      }
-    ],
-    "emailList": [
-      "antondilon@gmail.com"
-    ],
-    "rating": 4.7,
-    "URL": "https://www.amazon.ca/Five-Star-Notebooks-Assorted-38057/dp/B01BHL3DA4/ref=sr_1_5?keywords=five+star+notebook&qid=1573991974&sr=8-5",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61WsO5feZEL._SY450_.jpg"
-  },
-  {
-    "id": 16,
-    "title": "Hue White A19 Starter Kit (Compatible with Amazon Alexa, Apple Home Kit and Google Assistant)",
-    "priceToCompare": 89.99,
-    "priceList": [
-      {
-        "price": 89.99,
-        "dateTime": "2019-11-17 07:11:06.196952"
-      },
-      {
-        "price": 89.99,
-        "dateTime": "2019-11-17 10:05:25.040037"
-      },
-      {
-        "price": 89.99,
-        "dateTime": "2019-11-18 05:32:10.059616"
-      },
-      {
-        "price": 89.99,
-        "dateTime": "2019-11-19 06:45:08.862172"
-      },
-      {
-        "price": 89.99,
-        "dateTime": "2019-11-21 05:45:59.598018"
-      }
-    ],
-    "emailList": [
-      "antondilon@gmail.com",
-      "antondilon2@gmail.com"
-    ],
-    "rating": 4.6,
-    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_3?ie=UTF8&adId=A03179911UPULO39EEOLJ&url=%2FStarter-Compatible-Amazon-Google-Assistant%2Fdp%2FB075JF5J84%2Fref%3Dsr_1_3_sspa%3Fkeywords%3Dphillips%2Bhue%26qid%3D1573992663%26sr%3D8-3-spons%26psc%3D1&qualifier=1573992663&id=1485832258476984&widgetName=sp_atf",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71I7HU9b2BL._AC_SX679_.jpg"
-  },
-  {
-    "id": 17,
-    "title": "Apple MacBook Pro 13-inch 2.3GHz Core i5, 256GB - Space Gray - 2017 (Refurbished)",
-    "priceToCompare": 1333.39,
-    "priceList": [
-      {
-        "price": 1739.99,
-        "dateTime": "2019-11-18 18:52:04.874210"
-      },
-      {
-        "price": 1333.39,
-        "dateTime": "2019-11-19 06:45:12.205258"
-      },
-      {
-        "price": 1333.39,
-        "dateTime": "2019-11-21 05:46:00.933821"
-      }
-    ],
-    "emailList": [
-      "antondilon@gmail.com"
-    ],
-    "rating": 0,
-    "URL": "https://www.amazon.ca/Apple-MacBook-13-inch-2-3GHz-256GB/dp/B07J3RG68L/ref=sr_1_2?keywords=Apple+MacBook+Pro+13-inch+2.3GHz+Core+i5%2C+256GB+-+Space+Gray+-+2017+%28Refurbished%29&qid=1574123177&sr=8-2",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61o62q%2B1GUL._SX679_.jpg"
   }
 ]
