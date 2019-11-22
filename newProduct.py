@@ -18,14 +18,15 @@ agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHT
 def newProduct(product, email):
 
     try:
-        #Search URL
-        URL = 'https://www.amazon.ca/s?k=' + product
-
         #Requesting the serach page 
 
+        ##---REQUESTS
+        #URL = 'https://www.amazon.ca/s?k=' + product #Search URL
         # response = requests.get(URL, headers = {'User-Agent' : agent})
         # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
+        ##---URLLIB2
+        URL = 'https://www.amazon.ca/s?k=' + urllib2.quote(product)  #Search URL
         response = urllib2.urlopen(URL).read()
         soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
@@ -45,12 +46,19 @@ def newProduct(product, email):
 
         #Product's page
         productAddress = soup.findAll("a", {"class": "a-link-normal a-text-normal"})[i]['href']
-        productURL = 'https://www.amazon.ca' + productAddress
-
 
         ##Requesting the product page 
-        response = requests.get(productURL, headers = {'User-Agent' : agent})
-        soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+
+        ##---REQUESTS
+        # productURL = 'https://www.amazon.ca' + productAddress
+        # response = requests.get(productURL, headers = {'User-Agent' : agent})
+        # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+
+        ##---URLLIB2
+        productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
+        response = urllib2.urlopen(productURL).read()
+        soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
+
 
         ##Price of the product
         productPrice = soup.find('span', {'class':'a-color-price'}).text.strip() #Accesing through product page to avoid discounts and sponosored products
