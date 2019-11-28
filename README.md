@@ -1,4 +1,4 @@
-# Price Watch 
+# Price Watch Backend
 
 ![image0](https://raw.githubusercontent.com/AntonKanug/Price-Watch-BE/master/assets/logoTitle.png)
 ### Made By Anton Kanugalawattage, 2019 
