@@ -31,6 +31,10 @@
       {
         "price": 129.9,
         "dateTime": "2019-11-26 06:01:54.046029"
+      },
+      {
+        "price": 125.89,
+        "dateTime": "2019-11-30 17:53:47.272355"
       }
     ],
     "emailList": [
@@ -43,7 +47,7 @@
   {
     "id": 1,
     "title": "Corsair CH-9206015-NA Gaming K55 RGB Keyboard, Backlit LED",
-    "priceToCompare": 69.99,
+    "priceToCompare": 59.99,
     "priceList": [
       {
         "price": 69.99,
@@ -72,6 +76,10 @@
       {
         "price": 69.99,
         "dateTime": "2019-11-26 06:01:55.646065"
+      },
+      {
+        "price": 59.99,
+        "dateTime": "2019-11-30 17:53:48.756182"
       }
     ],
     "emailList": [
@@ -83,78 +91,86 @@
   },
   {
     "id": 2,
-    "title": "Apple MacBook Pro MGXA2LL/A 15-inch Laptop with Retina Display (2.2 GHz Intel Core i7 Processor, 16 GB RAM, 256 GB HDD) (Renewed)",
-    "priceToCompare": 1186.64,
+    "title": "Apple MR932LL/A 15.4' MacBook Pro Laptop (Retina, Touch Bar, 2.2GHz 6-Core Intel Core i7, 16GB RAM, 256GB SSD Storage) Space Gray",
+    "priceToCompare": 2958.95,
     "priceList": [
       {
-        "price": 1186.64,
+        "price": 2958.95,
         "dateTime": "2019-11-16 10:38:05.683073"
       },
       {
-        "price": 1186.64,
+        "price": 2958.95,
         "dateTime": "2019-11-17 10:05:04.116180"
       },
       {
-        "price": 1186.64,
+        "price": 2958.95,
         "dateTime": "2019-11-18 05:31:46.361502"
       },
       {
-        "price": 1186.64,
+        "price": 2958.95,
         "dateTime": "2019-11-19 06:44:45.658723"
       },
       {
-        "price": 1195.73,
+        "price": 2900.50,
         "dateTime": "2019-11-21 05:45:32.306397"
       },
       {
-        "price": 1199.39,
+        "price": 2958.95,
         "dateTime": "2019-11-22 08:01:22.051261"
       },
       {
-        "price": 1257.0,
-        "dateTime": "2019-11-26 06:01:57.021512"
+        "price": 3012.99,
+        "dateTime": "2019-11-24 06:01:57.021512"
+      },
+      {
+        "price": 3012.99,
+        "dateTime": "2019-11-30 17:53:51.791137"
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "antondilon2@gmail.com"
     ],
-    "rating": 0,
-    "URL": "https://www.amazon.ca/Apple-MacBook-MGXA2LL-Processor-Refurbished/dp/B078WYC1R9/ref=sr_1_3?keywords=macbook+pro&qid=1573918683&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71pLMj07suL._SX425_.jpg"
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/Apple-MR932LL-MacBook-Laptop-Storage/dp/B07FK9H65N/ref=sr_1_8?keywords=macbook+pro+2018&qid=1575120212&sr=8-8",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/614XgOF31AL._SX679_.jpg"
   },
   {
     "id": 3,
-    "title": "Apple MacBook Air MJVM2LL/A 11.6-Inch laptop(1.6 GHz Intel i5,128 GB SSD, Integrated Intel HD Graphics 6000, Mac OS X Yosemite",
-    "priceToCompare": 550.0,
+    "title": "New Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage) - Gold",
+    "priceToCompare": 1439.99,
     "priceList": [
       {
-        "price": 550.0,
+        "price": 1439.99,
         "dateTime": "2019-11-16 10:38:13.891566"
       },
       {
-        "price": 550.0,
+        "price": 1439.99,
         "dateTime": "2019-11-17 10:05:05.544763"
       },
       {
-        "price": 550.0,
+        "price": 1439.99,
         "dateTime": "2019-11-18 05:31:47.795000"
       },
       {
-        "price": 550.0,
+        "price": 1439.99,
         "dateTime": "2019-11-19 06:44:47.196503"
       },
       {
-        "price": 550.0,
+        "price": 1439.99,
         "dateTime": "2019-11-21 05:45:33.459619"
       },
       {
-        "price": 550.0,
+        "price": 1499.99,
         "dateTime": "2019-11-22 08:01:23.315728"
       },
       {
-        "price": 550.0,
+        "price": 1399.99,
         "dateTime": "2019-11-26 06:01:58.345611"
+      },
+      {
+        "price": 1399.99,
+        "dateTime": "2019-11-30 17:53:51.791137"
       }
     ],
     "emailList": [
@@ -162,8 +178,8 @@
       "kanugala@mcmaster.ca"
     ],
     "rating": 4.2,
-    "URL": "https://www.amazon.ca/Apple-MJVM2LL-11-6-Inch-Integrated-Graphics/dp/B01KIIQUFW/ref=sr_1_3?keywords=macbook+air&qid=1573918692&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/31I6HT8voHL._SX355_.jpg"
+    "URL": "https://www.amazon.ca/Apple-MacBook-13-inch-128GB-Storage/dp/B07V1PHM66/ref=sr_1_12?keywords=macbook+air&qid=1575120433&sr=8-12",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51p9iVs%2BbVL._SX679_.jpg"
   },
   {
     "id": 4,
@@ -197,6 +213,10 @@
       {
         "price": 1289.99,
         "dateTime": "2019-11-26 06:01:59.881408"
+      },
+      {
+        "price": 1249.99,
+        "dateTime": "2019-11-30 17:53:53.595033"
       }
     ],
     "emailList": [
@@ -210,36 +230,40 @@
   },
   {
     "id": 5,
-    "title": "Apple iPhone 7, GSM Unlocked , 32GB - Rose Gold (Renewed)",
-    "priceToCompare": 280.0,
+    "title": "Apple iPhone X, GSM Unlocked 5.8in, 64 GB - Space Gray (Renewed)",
+    "priceToCompare": 710.00,
     "priceList": [
       {
-        "price": 280.0,
+        "price": 710.00,
         "dateTime": "2019-11-16 17:42:05.145102"
       },
       {
-        "price": 280.0,
+        "price": 710.00,
         "dateTime": "2019-11-17 10:05:08.689678"
       },
       {
-        "price": 280.0,
+        "price": 710.00,
         "dateTime": "2019-11-18 05:31:51.100535"
       },
       {
-        "price": 280.0,
+        "price": 839.99,
         "dateTime": "2019-11-19 06:44:50.460888"
       },
       {
-        "price": 280.0,
+        "price": 819.99,
         "dateTime": "2019-11-21 05:45:36.573553"
       },
       {
-        "price": 280.0,
+        "price": 839.99,
         "dateTime": "2019-11-22 08:01:26.063904"
       },
       {
-        "price": 280.0,
+        "price": 710.00,
         "dateTime": "2019-11-26 06:02:01.591386"
+      },
+      {
+        "price": 710.00,
+        "dateTime": "2019-11-30 06:02:01.591386"
       }
     ],
     "emailList": [
@@ -247,8 +271,8 @@
       "antondilon2@gmail.com"
     ],
     "rating": 3.7,
-    "URL": "https://www.amazon.ca/Apple-iPhone-GSM-Unlocked-32GB/dp/B01N9YOF3R/ref=sr_1_3?keywords=iphone+7&qid=1573944123&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71x3e0x%2BM2L._SX342_.jpg"
+    "URL": "https://www.amazon.ca/Apple-iPhone-GSM-Unlocked-5-8/dp/B07757R58W/ref=sr_1_4?keywords=iphone+x&qid=1575120631&sr=8-4",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41O5dJlOQUL.jpg"
   },
   {
     "id": 6,
@@ -282,6 +306,10 @@
       {
         "price": 1499.99,
         "dateTime": "2019-11-26 06:02:02.963950"
+      },
+      {
+        "price": 1499.99,
+        "dateTime": "2019-11-30 17:53:56.511687"
       }
     ],
     "emailList": [
@@ -324,6 +352,10 @@
       {
         "price": 799.0,
         "dateTime": "2019-11-26 06:02:07.031603"
+      },
+      {
+        "price": 799.0,
+        "dateTime": "2019-11-30 17:53:57.965486"
       }
     ],
     "emailList": [
@@ -337,7 +369,7 @@
   {
     "id": 8,
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
-    "priceToCompare": 16.77,
+    "priceToCompare": 14.25,
     "priceList": [
       {
         "price": 16.77,
@@ -366,6 +398,10 @@
       {
         "price": 16.77,
         "dateTime": "2019-11-26 06:02:08.792933"
+      },
+      {
+        "price": 14.25,
+        "dateTime": "2019-11-30 17:53:59.815013"
       }
     ],
     "emailList": [
@@ -378,7 +414,7 @@
   {
     "id": 9,
     "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
-    "priceToCompare": 119.99,
+    "priceToCompare": 89.99,
     "priceList": [
       {
         "price": 119.99,
@@ -407,6 +443,10 @@
       {
         "price": 119.99,
         "dateTime": "2019-11-26 06:02:10.174398"
+      },
+      {
+        "price": 89.99,
+        "dateTime": "2019-11-30 17:54:01.351276"
       }
     ],
     "emailList": [
@@ -419,7 +459,7 @@
   {
     "id": 10,
     "title": "PlayStation 4 - 1TB Slim - Console Edition",
-    "priceToCompare": 399.99,
+    "priceToCompare": 379.99,
     "priceList": [
       {
         "price": 366.14,
@@ -448,6 +488,10 @@
       {
         "price": 399.99,
         "dateTime": "2019-11-26 06:02:14.785872"
+      },
+      {
+        "price": 379.99,
+        "dateTime": "2019-11-30 17:54:03.134607"
       }
     ],
     "emailList": [
@@ -461,7 +505,7 @@
   {
     "id": 11,
     "title": "Apple MMEF2AM/A AirPods Wireless Bluetooth Headset for iPhones with iOS 10 or Later White",
-    "priceToCompare": 250.93,
+    "priceToCompare": 279.72,
     "priceList": [
       {
         "price": 250.93,
@@ -490,6 +534,10 @@
       {
         "price": 250.56,
         "dateTime": "2019-11-26 06:02:16.015565"
+      },
+      {
+        "price": 279.72,
+        "dateTime": "2019-11-30 17:54:04.732719"
       }
     ],
     "emailList": [
@@ -531,6 +579,10 @@
       {
         "price": 378.55,
         "dateTime": "2019-11-26 06:02:17.687140"
+      },
+      {
+        "price": 378.55,
+        "dateTime": "2019-11-30 17:54:06.941327"
       }
     ],
     "emailList": [
@@ -543,7 +595,7 @@
   {
     "id": 13,
     "title": "ICEBERG Water \u2013 Harvested from Newfoundland Icebergs \u2013 1L Bottle with < 5 PPM",
-    "priceToCompare": 13.97,
+    "priceToCompare": 19.59,
     "priceList": [
       {
         "price": 13.97,
@@ -572,6 +624,10 @@
       {
         "price": 13.97,
         "dateTime": "2019-11-26 06:02:18.916192"
+      },
+      {
+        "price": 19.59,
+        "dateTime": "2019-11-30 17:54:09.148437"
       }
     ],
     "emailList": [
