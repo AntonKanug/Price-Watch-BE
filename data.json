@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
-    "priceToCompare": 129.9,
+    "priceToCompare": 72.99,
     "priceList": [
       {
         "price": 50.46,
@@ -35,6 +35,10 @@
       {
         "price": 125.89,
         "dateTime": "2019-11-30 17:53:47.272355"
+      },
+      {
+        "price": 72.99,
+        "dateTime": "2019-12-06 06:55:34.750573"
       }
     ],
     "emailList": [
@@ -80,6 +84,10 @@
       {
         "price": 59.99,
         "dateTime": "2019-11-30 17:53:48.756182"
+      },
+      {
+        "price": 59.99,
+        "dateTime": "2019-12-06 06:55:36.364638"
       }
     ],
     "emailList": [
@@ -111,7 +119,7 @@
         "dateTime": "2019-11-19 06:44:45.658723"
       },
       {
-        "price": 2900.50,
+        "price": 2900.5,
         "dateTime": "2019-11-21 05:45:32.306397"
       },
       {
@@ -125,6 +133,10 @@
       {
         "price": 3012.99,
         "dateTime": "2019-11-30 17:53:51.791137"
+      },
+      {
+        "price": 2945.95,
+        "dateTime": "2019-12-06 06:55:37.728331"
       }
     ],
     "emailList": [
@@ -171,6 +183,10 @@
       {
         "price": 1399.99,
         "dateTime": "2019-11-30 17:53:51.791137"
+      },
+      {
+        "price": 1365.96,
+        "dateTime": "2019-12-06 06:55:39.256278"
       }
     ],
     "emailList": [
@@ -217,6 +233,10 @@
       {
         "price": 1249.99,
         "dateTime": "2019-11-30 17:53:53.595033"
+      },
+      {
+        "price": 1289.99,
+        "dateTime": "2019-12-06 06:55:41.064768"
       }
     ],
     "emailList": [
@@ -231,18 +251,18 @@
   {
     "id": 5,
     "title": "Apple iPhone X, GSM Unlocked 5.8in, 64 GB - Space Gray (Renewed)",
-    "priceToCompare": 710.00,
+    "priceToCompare": 710.0,
     "priceList": [
       {
-        "price": 710.00,
+        "price": 710.0,
         "dateTime": "2019-11-16 17:42:05.145102"
       },
       {
-        "price": 710.00,
+        "price": 710.0,
         "dateTime": "2019-11-17 10:05:08.689678"
       },
       {
-        "price": 710.00,
+        "price": 710.0,
         "dateTime": "2019-11-18 05:31:51.100535"
       },
       {
@@ -258,12 +278,16 @@
         "dateTime": "2019-11-22 08:01:26.063904"
       },
       {
-        "price": 710.00,
+        "price": 710.0,
         "dateTime": "2019-11-26 06:02:01.591386"
       },
       {
-        "price": 710.00,
+        "price": 710.0,
         "dateTime": "2019-11-30 06:02:01.591386"
+      },
+      {
+        "price": 710.0,
+        "dateTime": "2019-12-06 06:55:42.714380"
       }
     ],
     "emailList": [
@@ -277,7 +301,7 @@
   {
     "id": 6,
     "title": "Acer Predator Helios 300 Gaming Laptop PC, 15.6inch Full HD 144Hz 3ms IPS Display, Intel i7-9750H, GTX 1660 Ti 6GB, 16GB DDR4",
-    "priceToCompare": 1499.99,
+    "priceToCompare": 1799.99,
     "priceList": [
       {
         "price": 1599.99,
@@ -310,6 +334,10 @@
       {
         "price": 1499.99,
         "dateTime": "2019-11-30 17:53:56.511687"
+      },
+      {
+        "price": 1799.99,
+        "dateTime": "2019-12-06 06:55:44.220667"
       }
     ],
     "emailList": [
@@ -323,7 +351,7 @@
   {
     "id": 7,
     "title": "Microsoft Surface Laptop Intel Core i5 7th Gen 8GB RAM 256GB SSD Win 10 Platinum (Renewed)",
-    "priceToCompare": 799.0,
+    "priceToCompare": 959.78,
     "priceList": [
       {
         "price": 879.0,
@@ -356,6 +384,10 @@
       {
         "price": 799.0,
         "dateTime": "2019-11-30 17:53:57.965486"
+      },
+      {
+        "price": 959.78,
+        "dateTime": "2019-12-06 06:55:45.637034"
       }
     ],
     "emailList": [
@@ -369,7 +401,7 @@
   {
     "id": 8,
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
-    "priceToCompare": 14.25,
+    "priceToCompare": 16.77,
     "priceList": [
       {
         "price": 16.77,
@@ -402,6 +434,10 @@
       {
         "price": 14.25,
         "dateTime": "2019-11-30 17:53:59.815013"
+      },
+      {
+        "price": 16.77,
+        "dateTime": "2019-12-06 06:55:47.393294"
       }
     ],
     "emailList": [
@@ -414,7 +450,7 @@
   {
     "id": 9,
     "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
-    "priceToCompare": 89.99,
+    "priceToCompare": 119.99,
     "priceList": [
       {
         "price": 119.99,
@@ -447,6 +483,10 @@
       {
         "price": 89.99,
         "dateTime": "2019-11-30 17:54:01.351276"
+      },
+      {
+        "price": 119.99,
+        "dateTime": "2019-12-06 06:55:48.969090"
       }
     ],
     "emailList": [
@@ -492,6 +532,10 @@
       {
         "price": 379.99,
         "dateTime": "2019-11-30 17:54:03.134607"
+      },
+      {
+        "price": 379.99,
+        "dateTime": "2019-12-06 06:55:50.517523"
       }
     ],
     "emailList": [
@@ -538,6 +582,10 @@
       {
         "price": 279.72,
         "dateTime": "2019-11-30 17:54:04.732719"
+      },
+      {
+        "price": 269.0,
+        "dateTime": "2019-12-06 06:55:52.051829"
       }
     ],
     "emailList": [
@@ -550,7 +598,7 @@
   {
     "id": 12,
     "title": "LG 34UM69G-B 34\" 21:9 UltraWide IPS Monitor with 1ms Motion Blur Reduction and FreeSync, Black",
-    "priceToCompare": 378.55,
+    "priceToCompare": 419.99,
     "priceList": [
       {
         "price": 419.99,
@@ -583,6 +631,10 @@
       {
         "price": 378.55,
         "dateTime": "2019-11-30 17:54:06.941327"
+      },
+      {
+        "price": 419.99,
+        "dateTime": "2019-12-06 06:55:53.983416"
       }
     ],
     "emailList": [
@@ -628,6 +680,10 @@
       {
         "price": 19.59,
         "dateTime": "2019-11-30 17:54:09.148437"
+      },
+      {
+        "price": 19.59,
+        "dateTime": "2019-12-06 06:55:55.408350"
       }
     ],
     "emailList": [
@@ -636,5 +692,50 @@
     "rating": 5.0,
     "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A05202181IBS25F63BKA1&url=%2FICEBERG-Water-Harvested-Newfoundland-Icebergs%2Fdp%2FB07WNXTJNH%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dwater%26qid%3D1573991948%26sr%3D8-2-spons%26psc%3D1&qualifier=1573991948&id=7384677007132163&widgetName=sp_atf",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61AjYI5PbhL._SX385_.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Obins (Khail Box Red, Black)",
+    "priceToCompare": 155.68,
+    "priceList": [
+      {
+        "price": 155.68,
+        "dateTime": "2019-11-17 06:59:10.174719"
+      },
+      {
+        "price": 155.68,
+        "dateTime": "2019-11-17 10:05:19.998034"
+      },
+      {
+        "price": 155.99,
+        "dateTime": "2019-11-18 05:32:04.945817"
+      },
+      {
+        "price": 170.05,
+        "dateTime": "2019-11-19 06:45:03.409734"
+      },
+      {
+        "price": 155.68,
+        "dateTime": "2019-11-21 05:45:54.787369"
+      },
+      {
+        "price": 155.68,
+        "dateTime": "2019-11-22 08:01:38.884270"
+      },
+      {
+        "price": 155.68,
+        "dateTime": "2019-11-26 06:02:18.916192"
+      },
+      {
+        "price": 155.68,
+        "dateTime": "2019-12-06 06:55:55.408350"
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ],
+    "rating": 5.0,
+    "URL": "https://www.amazon.ca/Anne-Mechanical-Gaming-Keyboard-Backlit/dp/B07MNZ24HP",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/6140akv6t4L._SX679_.jpg"
   }
 ]
