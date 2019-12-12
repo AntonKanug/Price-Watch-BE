@@ -47,7 +47,7 @@ def priceChecker ():
 
                 #Send Email if price lower than 5%
                 if abs((newPriceF - oldPrice)*100/newPriceF) >= 5 :
-                    sendEMail(product['id'], newPriceF)
+                    # sendEMail(product['id'], newPriceF)
                     product['priceToCompare'] = newPriceF
 
                 #Appending price to list

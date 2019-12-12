@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
-    "priceToCompare": 72.99,
+    "priceToCompare": 77.0,
     "priceList": [
       {
         "price": 50.46,
@@ -39,6 +39,10 @@
       {
         "price": 72.99,
         "dateTime": "2019-12-06 06:55:34.750573"
+      },
+      {
+        "price": 77.0,
+        "dateTime": "2019-12-12 06:21:36.718881"
       }
     ],
     "emailList": [
@@ -51,7 +55,7 @@
   {
     "id": 1,
     "title": "Corsair CH-9206015-NA Gaming K55 RGB Keyboard, Backlit LED",
-    "priceToCompare": 59.99,
+    "priceToCompare": 79.8,
     "priceList": [
       {
         "price": 69.99,
@@ -88,6 +92,10 @@
       {
         "price": 59.99,
         "dateTime": "2019-12-06 06:55:36.364638"
+      },
+      {
+        "price": 79.8,
+        "dateTime": "2019-12-12 06:21:38.513255"
       }
     ],
     "emailList": [
@@ -137,6 +145,10 @@
       {
         "price": 2945.95,
         "dateTime": "2019-12-06 06:55:37.728331"
+      },
+      {
+        "price": 2945.95,
+        "dateTime": "2019-12-12 06:21:39.986165"
       }
     ],
     "emailList": [
@@ -187,6 +199,10 @@
       {
         "price": 1365.96,
         "dateTime": "2019-12-06 06:55:39.256278"
+      },
+      {
+        "price": 1355.0,
+        "dateTime": "2019-12-12 06:21:41.280227"
       }
     ],
     "emailList": [
@@ -237,6 +253,10 @@
       {
         "price": 1289.99,
         "dateTime": "2019-12-06 06:55:41.064768"
+      },
+      {
+        "price": 1299.99,
+        "dateTime": "2019-12-12 06:21:43.375709"
       }
     ],
     "emailList": [
@@ -288,6 +308,10 @@
       {
         "price": 710.0,
         "dateTime": "2019-12-06 06:55:42.714380"
+      },
+      {
+        "price": 699.96,
+        "dateTime": "2019-12-12 06:21:45.085301"
       }
     ],
     "emailList": [
@@ -338,6 +362,10 @@
       {
         "price": 1799.99,
         "dateTime": "2019-12-06 06:55:44.220667"
+      },
+      {
+        "price": 1759.99,
+        "dateTime": "2019-12-12 06:21:46.548248"
       }
     ],
     "emailList": [
@@ -351,7 +379,7 @@
   {
     "id": 7,
     "title": "Microsoft Surface Laptop Intel Core i5 7th Gen 8GB RAM 256GB SSD Win 10 Platinum (Renewed)",
-    "priceToCompare": 959.78,
+    "priceToCompare": 799.0,
     "priceList": [
       {
         "price": 879.0,
@@ -388,6 +416,10 @@
       {
         "price": 959.78,
         "dateTime": "2019-12-06 06:55:45.637034"
+      },
+      {
+        "price": 799.0,
+        "dateTime": "2019-12-12 06:21:48.139582"
       }
     ],
     "emailList": [
@@ -401,7 +433,7 @@
   {
     "id": 8,
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
-    "priceToCompare": 16.77,
+    "priceToCompare": 18.26,
     "priceList": [
       {
         "price": 16.77,
@@ -438,6 +470,10 @@
       {
         "price": 16.77,
         "dateTime": "2019-12-06 06:55:47.393294"
+      },
+      {
+        "price": 18.26,
+        "dateTime": "2019-12-12 06:21:50.089960"
       }
     ],
     "emailList": [
@@ -450,7 +486,7 @@
   {
     "id": 9,
     "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
-    "priceToCompare": 119.99,
+    "priceToCompare": 150.8,
     "priceList": [
       {
         "price": 119.99,
@@ -487,6 +523,10 @@
       {
         "price": 119.99,
         "dateTime": "2019-12-06 06:55:48.969090"
+      },
+      {
+        "price": 150.8,
+        "dateTime": "2019-12-12 06:21:51.953719"
       }
     ],
     "emailList": [
@@ -499,7 +539,7 @@
   {
     "id": 10,
     "title": "PlayStation 4 - 1TB Slim - Console Edition",
-    "priceToCompare": 379.99,
+    "priceToCompare": 399.99,
     "priceList": [
       {
         "price": 366.14,
@@ -536,6 +576,10 @@
       {
         "price": 379.99,
         "dateTime": "2019-12-06 06:55:50.517523"
+      },
+      {
+        "price": 399.99,
+        "dateTime": "2019-12-12 06:21:53.745611"
       }
     ],
     "emailList": [
@@ -549,7 +593,7 @@
   {
     "id": 11,
     "title": "Apple MMEF2AM/A AirPods Wireless Bluetooth Headset for iPhones with iOS 10 or Later White",
-    "priceToCompare": 279.72,
+    "priceToCompare": 284.99,
     "priceList": [
       {
         "price": 250.93,
@@ -586,6 +630,10 @@
       {
         "price": 269.0,
         "dateTime": "2019-12-06 06:55:52.051829"
+      },
+      {
+        "price": 284.99,
+        "dateTime": "2019-12-12 06:21:55.429514"
       }
     ],
     "emailList": [
@@ -598,7 +646,7 @@
   {
     "id": 12,
     "title": "LG 34UM69G-B 34\" 21:9 UltraWide IPS Monitor with 1ms Motion Blur Reduction and FreeSync, Black",
-    "priceToCompare": 419.99,
+    "priceToCompare": 369.99,
     "priceList": [
       {
         "price": 419.99,
@@ -635,6 +683,10 @@
       {
         "price": 419.99,
         "dateTime": "2019-12-06 06:55:53.983416"
+      },
+      {
+        "price": 369.99,
+        "dateTime": "2019-12-12 06:21:57.313078"
       }
     ],
     "emailList": [
@@ -684,6 +736,10 @@
       {
         "price": 19.59,
         "dateTime": "2019-12-06 06:55:55.408350"
+      },
+      {
+        "price": 19.59,
+        "dateTime": "2019-12-12 06:21:58.894087"
       }
     ],
     "emailList": [
@@ -696,7 +752,7 @@
   {
     "id": 14,
     "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Obins (Khail Box Red, Black)",
-    "priceToCompare": 155.68,
+    "priceToCompare": 179.0,
     "priceList": [
       {
         "price": 155.68,
@@ -729,6 +785,10 @@
       {
         "price": 155.68,
         "dateTime": "2019-12-06 06:55:55.408350"
+      },
+      {
+        "price": 179.0,
+        "dateTime": "2019-12-12 06:22:00.424065"
       }
     ],
     "emailList": [
