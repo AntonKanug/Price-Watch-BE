@@ -7,7 +7,7 @@
 
 A Web application to track prices of products from Amazon. Using the frontend all prices can be monitored with it's changes over time. When the price of a product changes an email is sent to user who are monitoring the price of a product. The "Add Product" feature is currently under development.
 
-Frontend Built Using: `React, JavaScript, HTML, CSS, Material, Charts.js, Adobe XD`
+Frontend Built Using: `React, JavaScript, HTML, CSS, Material, Charts.js, Adobe XD, Firebase`
 
 Backend Built Using: `Python, Requests, BeautifulSoup4, SMTP`
 
