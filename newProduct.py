@@ -86,12 +86,14 @@ def newProduct(product, email):
         
         # #Adding the product to data.json file
         # with open('data.json', mode='w', encoding='utf-8') as listContent:
+        
+        # MongoDB
         cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
         db = cluster['PriceWatch']
         collection = db['PriceWatch-Products']
-        
         content = list(collection.find())
         productInList = False
+
         #Checking if entered product is in database
         for product in content:
             if product['title'] == productTitle:
@@ -106,7 +108,7 @@ def newProduct(product, email):
                         print("📤  %s is already in email list" % email)
                 #If not in list add it to the email list
                 if not emailInList:
-                    product['emailList'].append(email)
+                    collection.update({'_id': product['_id']}, {'$push': {'emailList': email}})
                     print("📤  %s is added to email list" % email)
                 print("")
 

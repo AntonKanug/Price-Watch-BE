@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "_id": 0,
     "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
     "priceToCompare": 77.0,
     "priceList": [
@@ -53,7 +53,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/31g56hlWXpL._AA260_.jpg"
   },
   {
-    "id": 1,
+    "_id": 1,
     "title": "Corsair CH-9206015-NA Gaming K55 RGB Keyboard, Backlit LED",
     "priceToCompare": 79.8,
     "priceList": [
@@ -106,7 +106,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/71wSG1VzANL._AC_SX569_.jpg"
   },
   {
-    "id": 2,
+    "_id": 2,
     "title": "Apple MR932LL/A 15.4' MacBook Pro Laptop (Retina, Touch Bar, 2.2GHz 6-Core Intel Core i7, 16GB RAM, 256GB SSD Storage) Space Gray",
     "priceToCompare": 2958.95,
     "priceList": [
@@ -160,7 +160,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/614XgOF31AL._SX679_.jpg"
   },
   {
-    "id": 3,
+    "_id": 3,
     "title": "New Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage) - Gold",
     "priceToCompare": 1439.99,
     "priceList": [
@@ -214,7 +214,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/51p9iVs%2BbVL._SX679_.jpg"
   },
   {
-    "id": 4,
+    "_id": 4,
     "title": "LG 38WK95C-W 38-Inch Class 21:9 Curved UltraWide WQHD+ Monitor with HDR 10 (2018)",
     "priceToCompare": 1289.99,
     "priceList": [
@@ -269,7 +269,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/81rbQdqbDiL._AC_SX466_.jpg"
   },
   {
-    "id": 5,
+    "_id": 5,
     "title": "Apple iPhone X, GSM Unlocked 5.8in, 64 GB - Space Gray (Renewed)",
     "priceToCompare": 710.0,
     "priceList": [
@@ -323,7 +323,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/41O5dJlOQUL.jpg"
   },
   {
-    "id": 6,
+    "_id": 6,
     "title": "Acer Predator Helios 300 Gaming Laptop PC, 15.6inch Full HD 144Hz 3ms IPS Display, Intel i7-9750H, GTX 1660 Ti 6GB, 16GB DDR4",
     "priceToCompare": 1799.99,
     "priceList": [
@@ -377,7 +377,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/712a83USPrL._AC_SX425_.jpg"
   },
   {
-    "id": 7,
+    "_id": 7,
     "title": "Microsoft Surface Laptop Intel Core i5 7th Gen 8GB RAM 256GB SSD Win 10 Platinum (Renewed)",
     "priceToCompare": 799.0,
     "priceList": [
@@ -431,7 +431,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/71YWn3XKVkL._AC_SX679_.jpg"
   },
   {
-    "id": 8,
+    "_id": 8,
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
     "priceToCompare": 18.26,
     "priceList": [
@@ -484,7 +484,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/81D-mcEb58L._AC_SX522_.jpg"
   },
   {
-    "id": 9,
+    "_id": 9,
     "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
     "priceToCompare": 150.8,
     "priceList": [
@@ -537,7 +537,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/911uWwnshOL._SX425_.jpg"
   },
   {
-    "id": 10,
+    "_id": 10,
     "title": "PlayStation 4 - 1TB Slim - Console Edition",
     "priceToCompare": 399.99,
     "priceList": [
@@ -591,7 +591,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/715RBdgZtHL._SX425_.jpg"
   },
   {
-    "id": 11,
+    "_id": 11,
     "title": "Apple MMEF2AM/A AirPods Wireless Bluetooth Headset for iPhones with iOS 10 or Later White",
     "priceToCompare": 284.99,
     "priceList": [
@@ -644,7 +644,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/41DYtv1JJaL._AC_SX425_.jpg"
   },
   {
-    "id": 12,
+    "_id": 12,
     "title": "LG 34UM69G-B 34\" 21:9 UltraWide IPS Monitor with 1ms Motion Blur Reduction and FreeSync, Black",
     "priceToCompare": 369.99,
     "priceList": [
@@ -697,7 +697,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/81tjaxZL6IL._AC_SX679_.jpg"
   },
   {
-    "id": 13,
+    "_id": 13,
     "title": "ICEBERG Water \u2013 Harvested from Newfoundland Icebergs \u2013 1L Bottle with < 5 PPM",
     "priceToCompare": 19.59,
     "priceList": [
@@ -750,7 +750,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/61AjYI5PbhL._SX385_.jpg"
   },
   {
-    "id": 14,
+    "_id": 14,
     "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Obins (Khail Box Red, Black)",
     "priceToCompare": 179.0,
     "priceList": [
