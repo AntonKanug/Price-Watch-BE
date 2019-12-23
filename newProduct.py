@@ -11,6 +11,8 @@ import json
 import datetime
 from bs4 import BeautifulSoup
 import urllib.request as urllib2
+import pymongo
+from pymongo import MongoClient
 
 ##User Agent
 agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
@@ -21,14 +23,14 @@ def newProduct(product, email):
         #Requesting the serach page 
 
         ##---REQUESTS
-        #URL = 'https://www.amazon.ca/s?k=' + product #Search URL
-        # response = requests.get(URL, headers = {'User-Agent' : agent})
-        # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+        URL = 'https://www.amazon.ca/s?k=' + product #Search URL
+        response = requests.get(URL, headers = {'User-Agent' : agent})
+        soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
         ##---URLLIB2
-        URL = 'https://www.amazon.ca/s?k=' + urllib2.quote(product)  #Search URL
-        response = urllib2.urlopen(URL).read()
-        soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
+        # URL = 'https://www.amazon.ca/s?k=' + urllib2.quote(product)  #Search URL
+        # response = urllib2.urlopen(URL).read()
+        # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
         #Excluding sponsored content from search results
         sponsored, i = True, 0
@@ -50,14 +52,14 @@ def newProduct(product, email):
         ##Requesting the product page 
 
         ##---REQUESTS
-        # productURL = 'https://www.amazon.ca' + productAddress
-        # response = requests.get(productURL, headers = {'User-Agent' : agent})
-        # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+        productURL = 'https://www.amazon.ca' + productAddress
+        response = requests.get(productURL, headers = {'User-Agent' : agent})
+        soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
         ##---URLLIB2
-        productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
-        response = urllib2.urlopen(productURL).read()
-        soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
+        # productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
+        # response = urllib2.urlopen(productURL).read()
+        # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
 
         ##Price of the product
@@ -78,49 +80,52 @@ def newProduct(product, email):
         imageURL = imageURLList[1]
 
         ##JSON 
-        #Reading data.json file
-        with open('data.json', mode='r', encoding='utf-8') as listContent:
-            content = json.load(listContent)
+        # #Reading data.json file
+        # with open('data.json', mode='r', encoding='utf-8') as listContent:
+        #     content = json.load(listContent)
         
-        #Adding the product to data.json file
-        with open('data.json', mode='w', encoding='utf-8') as listContent:
-            productInList = False
-            #Checking if entered product is in database
-            for product in content:
-                if product['title'] == productTitle:
-                    productInList = True
-                    print("\n📦  Product %s is already in databse" % product['title'])
+        # #Adding the product to data.json file
+        # with open('data.json', mode='w', encoding='utf-8') as listContent:
+        cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
+        db = cluster['PriceWatch']
+        collection = db['PriceWatch-Products']
+        
+        content = list(collection.find())
+        productInList = False
+        #Checking if entered product is in database
+        for product in content:
+            if product['title'] == productTitle:
+                productInList = True
+                print("\n📦  Product %s is already in databse" % product['title'])
 
-                    #Checking if email already in list
-                    emailInList = False
-                    for userEMail in product['emailList']:
-                        if userEMail == email:
-                            emailInList = True
-                            print("📤  %s is already in email list" % email)
-                    #If not in list add it to the email list
-                    if not emailInList:
-                        product['emailList'].append(email)
-                        print("📤  %s is added to email list" % email)
-                    print("")
+                #Checking if email already in list
+                emailInList = False
+                for userEMail in product['emailList']:
+                    if userEMail == email:
+                        emailInList = True
+                        print("📤  %s is already in email list" % email)
+                #If not in list add it to the email list
+                if not emailInList:
+                    product['emailList'].append(email)
+                    print("📤  %s is added to email list" % email)
+                print("")
 
-            #Adding product if not in databse
-            if not productInList:
-                entry = { 'id': len(content), 
-                        'title': productTitle,
-                        'priceToCompare': float(productPrice[5:].replace(',','')),  
-                        'priceList': [{
-                            'price': float(productPrice[5:].replace(',','')), 
-                            'dateTime': str(datetime.datetime.now())
-                            }],
-                        'emailList': [email],
-                        'rating': rating, 
-                        'URL': productURL,
-                        'image': imageURL}
-                content.append(entry)
-                print("\n📦  Product %s is added to databse" % productTitle)
-                print("📤  %s is added to email list\n" % email)
-            #JSON dumping data
-            json.dump(content, listContent, indent=2) 
+        #Adding product if not in databse
+        if not productInList:
+            post = { '_id': len(content), 
+                    'title': productTitle,
+                    'priceToCompare': float(productPrice[5:].replace(',','')),  
+                    'priceList': [{
+                        'price': float(productPrice[5:].replace(',','')), 
+                        'dateTime': str(datetime.datetime.now())
+                        }],
+                    'emailList': [email],
+                    'rating': rating, 
+                    'URL': productURL,
+                    'image': imageURL}
+            collection.insert_one(post)
+            print("\n📦  Product %s is added to databse" % productTitle)
+            print("📤  %s is added to email list\n" % email)
     
     except IndexError:
         print("\n❌  %s not found\n" % product)
