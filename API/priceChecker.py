@@ -10,7 +10,7 @@ import requests
 import os
 import datetime
 from bs4 import BeautifulSoup
-from .sendEMail import sendEMail
+from sendEMail import sendEMail
 import urllib.request as urllib2
 import pymongo
 from pymongo import MongoClient

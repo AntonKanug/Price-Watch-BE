@@ -7,16 +7,16 @@ Amazon Price Watch mainlication
 import pymongo
 from pymongo import MongoClient
 from flask import Flask, Blueprint, jsonify, request
-from .priceChecker import priceChecker
-from .newProduct import newProduct
-from .pricePlot import pricePlot
-from .sendEMail import sendEMail
+from priceChecker import priceChecker
+from newProduct import newProduct
+from pricePlot import pricePlot
+from sendEMail import sendEMail
 from flask_cors import CORS, cross_origin
 
 
-main = Blueprint('main', __name__)
-CORS(main)
-@main.route('/products')
+app = Flask(__name__)
+CORS(app)
+@app.route('/products')
 def products():
     cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
     db = cluster['PriceWatch']
@@ -24,14 +24,14 @@ def products():
     content = list(collection.find())
     return jsonify(content)
 
-@main.route('/addProduct', methods = ['POST'])
+@app.route('/addProduct', methods = ['POST'])
 def addProduct():
     productData = request.get_json()
     # newProduct(productData['title'], productData['email'])
     return productData['title'], productData['email'], 201
 
 if __name__ == '__main__':
-    main.debug =True
+    app.run(debug =True)
 
 
 # newProduct("five star notebook", 'antondilon2@gmail.com')
