@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email import encoders 
 
-def sendEMail(id, newPrice):
+def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
     try:
         ##Initializing  Server
         server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -23,16 +23,6 @@ def sendEMail(id, newPrice):
         ##Login to server
         #server.login('antondilon2@gmail.com', 'drpehshhdqzshmju')
         server.login('noreplyPriceWatch@gmail.com', 'fjcrfaubmimqbfty')
-
-        #JSON
-        with open('data.json', mode='r', encoding='utf-8') as listContent:
-            content = json.load(listContent)
-            
-        emailList = content[id]['emailList']
-        URL = content[id]['URL']
-        oldPrice = content[id]['priceToCompare']
-        title = content[id]['title']
-        image = content[id]['image']
 
         ##Creating Message
         msg = MIMEMultipart() 
