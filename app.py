@@ -15,6 +15,11 @@ from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 CORS(app)
+
+@app.route('/')
+def index():
+    return "<h1>Welcome to our server !!</h1>"
+
 @app.route('/products')
 def products():
     cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
@@ -30,7 +35,8 @@ def addProduct():
     return productData['title'], productData['email'], 201
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
 
 
 # newProduct("five star notebook", 'antondilon2@gmail.com')
