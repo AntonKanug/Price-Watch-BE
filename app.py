@@ -1,7 +1,7 @@
 '''
 Anton Kanugalwattage
 July 4, 2019
-Amazon Price Watch mainlication
+Amazon Price Watch application
 '''
 
 import pymongo
@@ -36,7 +36,7 @@ def addProduct():
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(threaded=True, port=5000)
+    app.run()
 
 
 # newProduct("five star notebook", 'antondilon2@gmail.com')
