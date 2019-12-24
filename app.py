@@ -19,19 +19,19 @@ CORS(app)
 def index():
     return "<h1>Welcome to our server !!</h1>"
 
-# @app.route('/products')
-# def products():
-#     cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
-#     db = cluster['PriceWatch']
-#     collection = db['PriceWatch-Products']
-#     content = list(collection.find())
-#     return jsonify(content)
+@app.route('/products')
+def products():
+    cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
+    db = cluster['PriceWatch']
+    collection = db['PriceWatch-Products']
+    content = list(collection.find())
+    return jsonify(content)
 
-# @app.route('/addProduct', methods = ['POST'])
-# def addProduct():
-#     productData = request.get_json()
-#     # newProduct(productData['title'], productData['email'])
-#     return productData['title'], productData['email'], 201
+@app.route('/addProduct', methods = ['POST'])
+def addProduct():
+    productData = request.get_json()
+    # newProduct(productData['title'], productData['email'])
+    return productData['title'], productData['email'], 201
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
