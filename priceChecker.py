@@ -8,7 +8,6 @@ Amazon Price Watch Application
 import time
 import requests
 import os
-import json
 import datetime
 from bs4 import BeautifulSoup
 from sendEMail import sendEMail
@@ -18,7 +17,6 @@ from pymongo import MongoClient
 
 ##User Agent
 agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
-
 proxies = {"http": "http://10.10.1.10:3128",
            "https": "http://10.10.1.10:1080"}
 
@@ -49,7 +47,7 @@ def priceChecker ():
 
             #Send Email if price lower than 5%
             if int(abs((newPriceF - oldPrice)*100/newPriceF)) >= 5 :
-                sendEMail(product['_id'], newPriceF, product['priceToCompare'], product['title'], product['URL'], product['image'], product['emailList'])
+                # sendEMail(product['_id'], newPriceF, product['priceToCompare'], product['title'], product['URL'], product['image'], product['emailList'])
                 collection.update_one({'_id': product['_id']}, {'$set': {'priceToCompare': newPriceF}})
 
             #Appending price to list

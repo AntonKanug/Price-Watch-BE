@@ -7,7 +7,6 @@ Amazon Price Watch Application
 
 import time
 import requests
-import json
 import datetime
 from bs4 import BeautifulSoup
 import urllib.request as urllib2
