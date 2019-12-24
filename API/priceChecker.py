@@ -10,18 +10,17 @@ import requests
 import os
 import datetime
 from bs4 import BeautifulSoup
-from sendEMail import sendEMail
+from .sendEMail import sendEMail
 import urllib.request as urllib2
 import pymongo
 from pymongo import MongoClient
 
 ##User Agent
-agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
 proxies = {"http": "http://10.10.1.10:3128",
            "https": "http://10.10.1.10:1080"}
 
-def priceChecker ():
-
+def priceChecker():
+    agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
     cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
     db = cluster['PriceWatch']
     collection = db['PriceWatch-Products']
@@ -38,13 +37,20 @@ def priceChecker ():
             # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
             #Price of the product
-            newPrice = soup.find('span', {'class':'a-color-price'}).text.strip() 
+            newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
+            availability = soup.find('span', {'class':'a-color-success'}).text.strip()
+            if availability == "In Stock.":
+                collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
+            else:
+                collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
+                continue
+            
             try:
                 newPriceF = float(newPrice[5:].replace(',',''))
             except:
                 continue
-            oldPrice = product['priceList'][-1]['price']
 
+            oldPrice = product['priceToCompare']
             #Send Email if price lower than 5%
             if int(abs((newPriceF - oldPrice)*100/newPriceF)) >= 5 :
                 # sendEMail(product['_id'], newPriceF, product['priceToCompare'], product['title'], product['URL'], product['image'], product['emailList'])

@@ -78,6 +78,12 @@ def newProduct(product, email):
         imageURLList = imageURLScraped.split("\"") #Due to multiple sizes of images spliting to select one
         imageURL = imageURLList[1]
 
+        productStock = soup.find('span', {'class':'a-color-success'}).text.strip()
+        if productStock == "In Stock.":
+            productAvailable = True
+        else:
+            productAvailable = False
+
         ##JSON 
         # #Reading data.json file
         # with open('data.json', mode='r', encoding='utf-8') as listContent:
@@ -121,7 +127,8 @@ def newProduct(product, email):
                         'dateTime': str(datetime.datetime.now())
                         }],
                     'emailList': [email],
-                    'rating': rating, 
+                    'rating': rating,
+                    'available': productAvailable,
                     'URL': productURL,
                     'image': imageURL}
             collection.insert_one(post)
