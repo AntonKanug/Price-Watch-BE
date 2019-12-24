@@ -4,14 +4,13 @@ July 4, 2019
 Amazon Price Watch application
 '''
 
+from flask import Flask, jsonify, request
+from flask_cors import CORS, cross_origin
 import pymongo
 from pymongo import MongoClient
-from flask import Flask, jsonify, request
-# from priceChecker import priceChecker
-# from newProduct import newProduct
-# from sendEMail import sendEMail
-from flask_cors import CORS, cross_origin
-
+from priceChecker import priceChecker
+from newProduct import newProduct
+from sendEMail import sendEMail
 
 app = Flask(__name__)
 CORS(app)
