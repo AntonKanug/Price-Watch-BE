@@ -17,7 +17,7 @@ Backend Built Using: `Python, Requests, BeautifulSoup4, MongoDB, SMTP`
 BeautifulSoup4, Requests
 
 ```
-pip install requests bs4
+pip install requests bs4 pymongo
 ```
 
 
