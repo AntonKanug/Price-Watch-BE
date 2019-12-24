@@ -9,7 +9,6 @@ from pymongo import MongoClient
 from flask import Flask, Blueprint, jsonify, request
 from priceChecker import priceChecker
 from newProduct import newProduct
-from pricePlot import pricePlot
 from sendEMail import sendEMail
 from flask_cors import CORS, cross_origin
 
@@ -31,7 +30,7 @@ def addProduct():
     return productData['title'], productData['email'], 201
 
 if __name__ == '__main__':
-    app.run(debug =True)
+    app.run(debug=True)
 
 
 # newProduct("five star notebook", 'antondilon2@gmail.com')
