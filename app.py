@@ -17,7 +17,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return "<h1>Welcome to our server !!</h1>"
+    return "<h3>Welcome to backend of Price Watch</h3><h4>By Anton Kanugalawattage</h4>"
 
 @app.route('/products')
 def products():
@@ -30,13 +30,11 @@ def products():
 @app.route('/addProduct', methods = ['POST'])
 def addProduct():
     productData = request.get_json()
-    # newProduct(productData['title'], productData['email'])
-    return productData['title'], productData['email'], 201
+    return newProduct(productData['title'], productData['email'])
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
     app.run()
-
 
 # newProduct("five star notebook", 'antondilon2@gmail.com')
 #priceChecker()
