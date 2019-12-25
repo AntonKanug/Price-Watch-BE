@@ -140,4 +140,4 @@ def newProduct(product, email):
     
     except IndexError:
         print("\n❌  %s not found\n" % product)
-        return "Not Added", 500
+        return "Not Added", 404
