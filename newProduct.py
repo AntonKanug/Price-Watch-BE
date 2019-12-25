@@ -51,14 +51,14 @@ def newProduct(product, email):
         ##Requesting the product page 
 
         ##---REQUESTS
-        productURL = 'https://www.amazon.ca' + productAddress
-        response = requests.get(productURL, headers = {'User-Agent' : agent})
-        soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+        # productURL = 'https://www.amazon.ca' + productAddress
+        # response = requests.get(productURL, headers = {'User-Agent' : agent})
+        # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
         ##---URLLIB2
-        # productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
-        # response = urllib2.urlopen(productURL).read()
-        # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
+        productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
+        response = urllib2.urlopen(productURL).read()
+        soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
 
         ##Price of the product
