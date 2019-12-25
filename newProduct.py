@@ -78,7 +78,7 @@ def newProduct(product, email):
         imageURLList = imageURLScraped.split("\"") #Due to multiple sizes of images spliting to select one
         imageURL = imageURLList[1]
 
-        productStock = soup.find('span', {'class':'a-color-success'}).text.strip()
+        productStock = soup.find(id='availability').text.strip()
         if productStock == "In Stock.":
             productAvailable = True
         else:
@@ -111,10 +111,12 @@ def newProduct(product, email):
                     if userEMail == email:
                         emailInList = True
                         print("📤  %s is already in email list" % email)
+                        return "Email in list", 204
                 #If not in list add it to the email list
                 if not emailInList:
                     collection.update({'_id': product['_id']}, {'$push': {'emailList': email}})
                     print("📤  %s is added to email list" % email)
+                    return "Email Added", 200
                 print("")
 
         #Adding product if not in databse
@@ -134,6 +136,8 @@ def newProduct(product, email):
             collection.insert_one(post)
             print("\n📦  Product %s is added to databse" % productTitle)
             print("📤  %s is added to email list\n" % email)
+            return "Added", 201
     
     except IndexError:
         print("\n❌  %s not found\n" % product)
+        return "Not Added", 500

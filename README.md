@@ -9,7 +9,7 @@ A Web application to track prices of products from Amazon. Using the frontend al
 
 Frontend Built Using: `React, JavaScript, HTML, CSS, Material, Charts.js, Adobe XD, Firebase`
 
-Backend Built Using: `Python, Requests, BeautifulSoup4, MongoDB, SMTP`
+Backend Built Using: `Python, Flask, MongoDB, Requests, BeautifulSoup4, SMTP, Heroku`
 
 
 ## Dependencies  

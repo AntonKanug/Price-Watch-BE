@@ -38,7 +38,7 @@ def priceChecker():
 
             #Price of the product
             newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
-            availability = soup.find('span', {'class':'a-color-success'}).text.strip()
+            availability = soup.find(id='availability').text.strip()
             if availability == "In Stock.":
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
             else:
