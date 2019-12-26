@@ -16,11 +16,11 @@ import pymongo
 from pymongo import MongoClient
 
 ##User Agent
+agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
 proxies = {"http": "http://10.10.1.10:3128",
            "https": "http://10.10.1.10:1080"}
 
 def priceChecker():
-    agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
     cluster = MongoClient("mongodb+srv://pwUser:gOpJtmdj6JNWAQpy@pricewatch-zurxa.mongodb.net/test?retryWrites=true&w=majority")
     db = cluster['PriceWatch']
     collection = db['PriceWatch-Products']
@@ -69,6 +69,7 @@ def priceChecker():
             print("💵  $%.2f - New Price  \n📅  %s \n"  % (newPriceF,  str(datetime.datetime.now())))
         except:
             print("❌  parser not working")
-            exit()
+            return "Not Updated", 404
     
     print("✅  MongoDB updated")
+    return "Updated", 201
