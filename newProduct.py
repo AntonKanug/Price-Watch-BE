@@ -14,7 +14,7 @@ import pymongo
 from pymongo import MongoClient
 
 ##User Agent
-agent = 'Mozilla/5.0'
+agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
 
 def newProduct(product, email):
 
