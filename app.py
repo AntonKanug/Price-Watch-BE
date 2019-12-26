@@ -32,7 +32,7 @@ def addProduct():
     productData = request.get_json()
     return newProduct(productData['title'], productData['email'])
 
-@app.route('/priceCheck', methods = ['POST'])
+@app.route('/priceCheck')
 def priceCheck():
     return priceChecker()
 
