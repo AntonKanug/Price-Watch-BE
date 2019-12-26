@@ -32,6 +32,10 @@ def addProduct():
     productData = request.get_json()
     return newProduct(productData['title'], productData['email'])
 
+@app.route('/priceCheck', methods = ['POST'])
+def priceCheck():
+    return priceChecker()
+
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
     app.run()
