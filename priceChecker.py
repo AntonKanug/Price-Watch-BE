@@ -16,7 +16,7 @@ import pymongo
 from pymongo import MongoClient
 
 ##User Agent
-agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36'
+agent = 'Mozilla/5.0'
 proxies = {"http": "http://10.10.1.10:3128",
            "https": "http://10.10.1.10:1080"}
 
@@ -38,17 +38,20 @@ def priceChecker():
 
             #Price of the product
             newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
-            availability = soup.find(id='availability').text.strip()
-            if availability == "In Stock.":
-                collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
-            else:
+            # availability = soup.find(id='availability').text.strip()
+            if newPrice == "Currently unavailable.":
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
                 continue
-            
-            try:
-                newPriceF = float(newPrice[5:].replace(',',''))
-            except:
-                continue
+            else:
+                collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
+
+            newPriceF = float(newPrice[5:].replace(',',''))
+            # try:
+            #     newPriceF = float(newPrice[5:].replace(',',''))
+            #     collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
+            # except:
+            #     collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
+            #     continue
 
             oldPrice = product['priceToCompare']
             #Send Email if price lower than 5%
