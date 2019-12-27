@@ -45,13 +45,11 @@ def priceChecker():
             else:
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
 
-            newPriceF = float(newPrice[5:].replace(',',''))
-            # try:
-            #     newPriceF = float(newPrice[5:].replace(',',''))
-            #     collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
-            # except:
-            #     collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
-            #     continue
+            try:
+                newPriceF = float(newPrice[5:].replace(',',''))
+            except:
+                collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
+                continue
 
             oldPrice = product['priceToCompare']
             #Send Email if price lower than 5%
