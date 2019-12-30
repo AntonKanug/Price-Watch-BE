@@ -30,7 +30,8 @@ def priceChecker():
     for product in content:
         try:
             #Getting data for each URL
-            response = requests.get(product['URL'], headers = {'User-Agent' : agent})
+            payload = {'api_key': '29fb367e04dcdb47f7d59ad95563e75c', 'url': product['URL']}
+            response = requests.get('http://api.scraperapi.com', params=payload)
             soup = BeautifulSoup(response.text, "lxml")  #Intializing soup
 
             # response = urllib2.urlopen(product['URL']).read()

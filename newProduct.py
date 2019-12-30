@@ -23,7 +23,8 @@ def newProduct(product, email):
 
         ##---REQUESTS
         URL = 'https://www.amazon.ca/s?k=' + product #Search URL
-        response = requests.get(URL, headers = {'User-Agent' : agent})
+        payload = {'api_key': '29fb367e04dcdb47f7d59ad95563e75c', 'url':URL}
+        response = requests.get('http://api.scraperapi.com', params=payload)
         soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
         ##---URLLIB2
@@ -51,15 +52,17 @@ def newProduct(product, email):
         ##Requesting the product page 
 
         ##---REQUESTS
-        # productURL = 'https://www.amazon.ca' + productAddress
+        productURL = 'https://www.amazon.ca' + productAddress
         # response = requests.get(productURL, headers = {'User-Agent' : agent})
         # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+        payload = {'api_key': '29fb367e04dcdb47f7d59ad95563e75c', 'url':productURL}
+        response = requests.get('http://api.scraperapi.com', params=payload)
+        soup = BeautifulSoup(response.text, "lxml")
 
         ##---URLLIB2
-        productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
-        response = urllib2.urlopen(productURL).read()
-        soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
-
+        # productURL = 'https://www.amazon.ca' +  urllib2.quote(productAddress)
+        # response = urllib2.urlopen(productURL).read()
+        # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
         ##Price of the product
         productPrice = soup.find('span', {'class':'a-color-price'}).text.strip() #Accesing through product page to avoid discounts and sponosored products
