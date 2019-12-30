@@ -124,7 +124,7 @@ def newProduct(product, email):
 
         #Adding product if not in databse
         if not productInList:
-            post = { '_id': len(content), 
+            post = { '_id': content[-1]['_id']+1, 
                     'title': productTitle,
                     'priceToCompare': float(productPrice[5:].replace(',','')),  
                     'priceList': [{
