@@ -47,7 +47,8 @@ def priceChecker():
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
 
             try:
-                newPriceF = float(newPrice[5:].replace(',',''))
+                productPriceArr = productPrice.split()
+                newPriceF = float(productPriceArr[1])
             except:
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
                 continue

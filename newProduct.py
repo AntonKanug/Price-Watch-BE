@@ -83,7 +83,8 @@ def newProduct(product, email):
         imageURL = imageURLList[1]
         print(productURL)
         try:
-            newPriceF = float(productPrice[5:].replace(',',''))
+            productPriceArr = productPrice.split()
+            newPriceF = float(productPriceArr[1])
             productAvailable = True
         except:
             productAvailable = False
