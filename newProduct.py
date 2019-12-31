@@ -129,16 +129,16 @@ def newProduct(product, email):
         if not productInList:
             post = { '_id': content[-1]['_id']+1, 
                     'title': productTitle,
+                    'available': productAvailable,
+                    'rating': rating,
+                    'URL': productURL,
+                    'image': imageURL,
                     'priceToCompare': newPriceF,  
                     'priceList': [{
                         'price': newPriceF, 
-                        'dateTime': str(datetime.datetime.now())
+                        'dateTime': str(datetime.datetime.now().strftime("%c"))
                         }],
-                    'emailList': [email],
-                    'rating': rating,
-                    'available': productAvailable,
-                    'URL': productURL,
-                    'image': imageURL}
+                    'emailList': [email]}
             collection.insert_one(post)
             print("\n📦  Product %s is added to databse" % productTitle)
             print("📤  %s is added to email list\n" % email)

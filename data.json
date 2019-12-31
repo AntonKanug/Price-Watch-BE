@@ -2,815 +2,1096 @@
   {
     "_id": 0,
     "title": "Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical (CH-9300011-NA), Black",
-    "priceToCompare": 77.0,
+    "available": true,
+    "rating": 4.1,
+    "URL": "https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573918398&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/31g56hlWXpL._AA260_.jpg",
+    "priceToCompare": 77,
     "priceList": [
       {
-        "price": 50.46,
-        "dateTime": "2019-11-16 10:33:20.540042"
+        "dateTime": "Tue Nov 16 10:33:20 2019",
+        "price": 50.46
       },
       {
-        "price": 50.46,
-        "dateTime": "2019-11-17 10:05:01.080512"
+        "dateTime": "Tue Nov 17 10:05:01 2019",
+        "price": 50.46
       },
       {
-        "price": 50.46,
-        "dateTime": "2019-11-18 05:31:43.584786"
+        "dateTime": "Tue Nov 18 05:31:43 2019",
+        "price": 50.46
       },
       {
-        "price": 50.46,
-        "dateTime": "2019-11-19 06:44:42.657721"
+        "dateTime": "Tue Nov 19 06:44:42 2019",
+        "price": 50.46
       },
       {
-        "price": 49.9,
-        "dateTime": "2019-11-21 05:45:29.014029"
+        "dateTime": "Tue Nov 21 05:45:29 2019",
+        "price": 49.9
       },
       {
-        "price": 49.9,
-        "dateTime": "2019-11-22 08:01:19.254403"
+        "dateTime": "Tue Nov 22 08:01:19 2019",
+        "price": 49.9
       },
       {
-        "price": 129.9,
-        "dateTime": "2019-11-26 06:01:54.046029"
+        "dateTime": "Tue Nov 26 06:01:54 2019",
+        "price": 129.9
       },
       {
-        "price": 125.89,
-        "dateTime": "2019-11-30 17:53:47.272355"
+        "dateTime": "Tue Nov 30 17:53:47 2019",
+        "price": 125.89
       },
       {
-        "price": 72.99,
-        "dateTime": "2019-12-06 06:55:34.750573"
+        "dateTime": "Tue Dec 06 06:55:34 2019",
+        "price": 72.99
       },
       {
-        "price": 77.0,
-        "dateTime": "2019-12-12 06:21:36.718881"
+        "dateTime": "Tue Dec 12 06:21:36 2019",
+        "price": 77
+      },
+      {
+        "dateTime": "Tue Dec 26 08:51:58 2019",
+        "price": 110.97
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:05 2019",
+        "price": 77
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 4.1,
-    "available": true,
-    "URL": "https://www.amazon.ca/Corsair-Gaming-Backlit-Optical-CH-9300011-NA/dp/B01D63UU52/ref=sr_1_3?keywords=corsair+mouse&qid=1573918398&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/31g56hlWXpL._AA260_.jpg"
+    ]
   },
   {
     "_id": 1,
     "title": "Corsair CH-9206015-NA Gaming K55 RGB Keyboard, Backlit LED",
-    "priceToCompare": 79.8,
+    "available": true,
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/Corsair-CH-9206015-NA-Gaming-Keyboard-Backlit/dp/B01M4LIKLI/ref=sr_1_3?keywords=corsair+keyboard&qid=1573918414&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71wSG1VzANL._AC_SX569_.jpg",
+    "priceToCompare": 59.99,
     "priceList": [
       {
-        "price": 69.99,
-        "dateTime": "2019-11-16 10:33:36.686955"
+        "dateTime": "Tue Nov 16 10:33:36 2019",
+        "price": 69.99
       },
       {
-        "price": 69.99,
-        "dateTime": "2019-11-17 10:05:02.798016"
+        "dateTime": "Tue Nov 17 10:05:02 2019",
+        "price": 69.99
       },
       {
-        "price": 69.99,
-        "dateTime": "2019-11-18 05:31:45.165517"
+        "dateTime": "Tue Nov 18 05:31:45 2019",
+        "price": 69.99
       },
       {
-        "price": 69.99,
-        "dateTime": "2019-11-19 06:44:44.255217"
+        "dateTime": "Tue Nov 19 06:44:44 2019",
+        "price": 69.99
       },
       {
-        "price": 69.99,
-        "dateTime": "2019-11-21 05:45:31.015660"
+        "dateTime": "Tue Nov 21 05:45:31 2019",
+        "price": 69.99
       },
       {
-        "price": 69.99,
-        "dateTime": "2019-11-22 08:01:20.788861"
+        "dateTime": "Tue Nov 22 08:01:20 2019",
+        "price": 69.99
       },
       {
-        "price": 69.99,
-        "dateTime": "2019-11-26 06:01:55.646065"
+        "dateTime": "Tue Nov 26 06:01:55 2019",
+        "price": 69.99
       },
       {
-        "price": 59.99,
-        "dateTime": "2019-11-30 17:53:48.756182"
+        "dateTime": "Tue Nov 30 17:53:48 2019",
+        "price": 59.99
       },
       {
-        "price": 59.99,
-        "dateTime": "2019-12-06 06:55:36.364638"
+        "dateTime": "Tue Dec 06 06:55:36 2019",
+        "price": 59.99
       },
       {
-        "price": 79.8,
-        "dateTime": "2019-12-12 06:21:38.513255"
+        "dateTime": "Tue Dec 12 06:21:38 2019",
+        "price": 79.8
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:08 2019",
+        "price": 55.79
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:14 2019",
+        "price": 59.99
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 4.4,
-    "available": true,
-    "URL": "https://www.amazon.ca/Corsair-CH-9206015-NA-Gaming-Keyboard-Backlit/dp/B01M4LIKLI/ref=sr_1_3?keywords=corsair+keyboard&qid=1573918414&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71wSG1VzANL._AC_SX569_.jpg"
+    ]
   },
   {
     "_id": 2,
     "title": "Apple MR932LL/A 15.4' MacBook Pro Laptop (Retina, Touch Bar, 2.2GHz 6-Core Intel Core i7, 16GB RAM, 256GB SSD Storage) Space Gray",
+    "available": true,
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/Apple-MR932LL-MacBook-Laptop-Storage/dp/B07FK9H65N/ref=sr_1_8?keywords=macbook+pro+2018&qid=1575120212&sr=8-8",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/614XgOF31AL._SX679_.jpg",
     "priceToCompare": 2958.95,
     "priceList": [
       {
-        "price": 2958.95,
-        "dateTime": "2019-11-16 10:38:05.683073"
+        "dateTime": "Tue Nov 16 10:38:05 2019",
+        "price": 2958.95
       },
       {
-        "price": 2958.95,
-        "dateTime": "2019-11-17 10:05:04.116180"
+        "dateTime": "Tue Nov 17 10:05:04 2019",
+        "price": 2958.95
       },
       {
-        "price": 2958.95,
-        "dateTime": "2019-11-18 05:31:46.361502"
+        "dateTime": "Tue Nov 18 05:31:46 2019",
+        "price": 2958.95
       },
       {
-        "price": 2958.95,
-        "dateTime": "2019-11-19 06:44:45.658723"
+        "dateTime": "Tue Nov 19 06:44:45 2019",
+        "price": 2958.95
       },
       {
-        "price": 2900.5,
-        "dateTime": "2019-11-21 05:45:32.306397"
+        "dateTime": "Tue Nov 21 05:45:32 2019",
+        "price": 2900.5
       },
       {
-        "price": 2958.95,
-        "dateTime": "2019-11-22 08:01:22.051261"
+        "dateTime": "Tue Nov 22 08:01:22 2019",
+        "price": 2958.95
       },
       {
-        "price": 3012.99,
-        "dateTime": "2019-11-24 06:01:57.021512"
+        "dateTime": "Tue Nov 24 06:01:57 2019",
+        "price": 3012.99
       },
       {
-        "price": 3012.99,
-        "dateTime": "2019-11-30 17:53:51.791137"
+        "dateTime": "Tue Nov 30 17:53:51 2019",
+        "price": 3012.99
       },
       {
-        "price": 2945.95,
-        "dateTime": "2019-12-06 06:55:37.728331"
+        "dateTime": "Tue Dec 06 06:55:37 2019",
+        "price": 2945.95
       },
       {
-        "price": 2945.95,
-        "dateTime": "2019-12-12 06:21:39.986165"
+        "dateTime": "Tue Dec 12 06:21:39 2019",
+        "price": 2945.95
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:10 2019",
+        "price": 2945.95
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:18 2019",
+        "price": 2929.99
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "antondilon2@gmail.com"
-    ],
-    "rating": 4.4,
-    "available": true,
-    "URL": "https://www.amazon.ca/Apple-MR932LL-MacBook-Laptop-Storage/dp/B07FK9H65N/ref=sr_1_8?keywords=macbook+pro+2018&qid=1575120212&sr=8-8",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/614XgOF31AL._SX679_.jpg"
+    ]
   },
   {
     "_id": 3,
     "title": "New Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage) - Gold",
-    "priceToCompare": 1439.99,
+    "available": true,
+    "rating": 4.2,
+    "URL": "https://www.amazon.ca/Apple-MacBook-13-inch-128GB-Storage/dp/B07V1PHM66/ref=sr_1_12?keywords=macbook+air&qid=1575120433&sr=8-12",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51p9iVs%2BbVL._SX679_.jpg",
+    "priceToCompare": 1340.54,
     "priceList": [
       {
-        "price": 1439.99,
-        "dateTime": "2019-11-16 10:38:13.891566"
+        "dateTime": "Tue Nov 16 10:38:13 2019",
+        "price": 1439.99
       },
       {
-        "price": 1439.99,
-        "dateTime": "2019-11-17 10:05:05.544763"
+        "dateTime": "Tue Nov 17 10:05:05 2019",
+        "price": 1439.99
       },
       {
-        "price": 1439.99,
-        "dateTime": "2019-11-18 05:31:47.795000"
+        "dateTime": "Tue Nov 18 05:31:47 2019",
+        "price": 1439.99
       },
       {
-        "price": 1439.99,
-        "dateTime": "2019-11-19 06:44:47.196503"
+        "dateTime": "Tue Nov 19 06:44:47 2019",
+        "price": 1439.99
       },
       {
-        "price": 1439.99,
-        "dateTime": "2019-11-21 05:45:33.459619"
+        "dateTime": "Tue Nov 21 05:45:33 2019",
+        "price": 1439.99
       },
       {
-        "price": 1499.99,
-        "dateTime": "2019-11-22 08:01:23.315728"
+        "dateTime": "Tue Nov 22 08:01:23 2019",
+        "price": 1499.99
       },
       {
-        "price": 1399.99,
-        "dateTime": "2019-11-26 06:01:58.345611"
+        "dateTime": "Tue Nov 26 06:01:58 2019",
+        "price": 1399.99
       },
       {
-        "price": 1399.99,
-        "dateTime": "2019-11-30 17:53:51.791137"
+        "dateTime": "Tue Nov 30 17:53:51 2019",
+        "price": 1399.99
       },
       {
-        "price": 1365.96,
-        "dateTime": "2019-12-06 06:55:39.256278"
+        "dateTime": "Tue Dec 06 06:55:39 2019",
+        "price": 1365.96
       },
       {
-        "price": 1355.0,
-        "dateTime": "2019-12-12 06:21:41.280227"
+        "dateTime": "Tue Dec 12 06:21:41 2019",
+        "price": 1355
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:11 2019",
+        "price": 1340.54
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:23 2019",
+        "price": 1309.11
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "kanugala@mcmaster.ca"
-    ],
-    "rating": 4.2,
-    "available": true,
-    "URL": "https://www.amazon.ca/Apple-MacBook-13-inch-128GB-Storage/dp/B07V1PHM66/ref=sr_1_12?keywords=macbook+air&qid=1575120433&sr=8-12",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/51p9iVs%2BbVL._SX679_.jpg"
+    ]
   },
   {
     "_id": 4,
     "title": "LG 38WK95C-W 38-Inch Class 21:9 Curved UltraWide WQHD+ Monitor with HDR 10 (2018)",
-    "priceToCompare": 1289.99,
+    "available": true,
+    "rating": 3.9,
+    "URL": "https://www.amazon.ca/LG-38WK95C-W-38-Class-UltraWide/dp/B079L4WR4T/ref=sr_1_fkmr0_1?keywords=Samsung+49%27+monitor&qid=1573918703&sr=8-1-fkmr0",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81rbQdqbDiL._AC_SX466_.jpg",
+    "priceToCompare": 1299.99,
     "priceList": [
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-16 10:38:25.924072"
+        "dateTime": "Tue Nov 16 10:38:25 2019",
+        "price": 1289.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-17 10:05:07.183249"
+        "dateTime": "Tue Nov 17 10:05:07 2019",
+        "price": 1289.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-18 05:31:49.566020"
+        "dateTime": "Tue Nov 18 05:31:49 2019",
+        "price": 1289.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-19 06:44:48.893720"
+        "dateTime": "Tue Nov 19 06:44:48 2019",
+        "price": 1289.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-21 05:45:35.244904"
+        "dateTime": "Tue Nov 21 05:45:35 2019",
+        "price": 1289.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-22 08:01:24.777009"
+        "dateTime": "Tue Nov 22 08:01:24 2019",
+        "price": 1289.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-11-26 06:01:59.881408"
+        "dateTime": "Tue Nov 26 06:01:59 2019",
+        "price": 1289.99
       },
       {
-        "price": 1249.99,
-        "dateTime": "2019-11-30 17:53:53.595033"
+        "dateTime": "Tue Nov 30 17:53:53 2019",
+        "price": 1249.99
       },
       {
-        "price": 1289.99,
-        "dateTime": "2019-12-06 06:55:41.064768"
+        "dateTime": "Tue Dec 06 06:55:41 2019",
+        "price": 1289.99
       },
       {
-        "price": 1299.99,
-        "dateTime": "2019-12-12 06:21:43.375709"
+        "dateTime": "Tue Dec 12 06:21:43 2019",
+        "price": 1299.99
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:13 2019",
+        "price": 1220.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:26 2019",
+        "price": 1299.99
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "antondilon2@gmail.com",
       "antondilon3@gmail.com"
-    ],
-    "rating": 3.9,
-    "available": true,
-    "URL": "https://www.amazon.ca/LG-38WK95C-W-38-Class-UltraWide/dp/B079L4WR4T/ref=sr_1_fkmr0_1?keywords=Samsung+49%27+monitor&qid=1573918703&sr=8-1-fkmr0",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81rbQdqbDiL._AC_SX466_.jpg"
+    ]
   },
   {
     "_id": 5,
     "title": "Apple iPhone X, GSM Unlocked 5.8in, 64 GB - Space Gray (Renewed)",
-    "priceToCompare": 710.0,
+    "available": true,
+    "rating": 3.7,
+    "URL": "https://www.amazon.ca/Apple-iPhone-GSM-Unlocked-5-8/dp/B07757R58W/ref=sr_1_4?keywords=iphone+x&qid=1575120631&sr=8-4",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41O5dJlOQUL.jpg",
+    "priceToCompare": 710,
     "priceList": [
       {
-        "price": 710.0,
-        "dateTime": "2019-11-16 17:42:05.145102"
+        "dateTime": "Tue Nov 16 17:42:05 2019",
+        "price": 710
       },
       {
-        "price": 710.0,
-        "dateTime": "2019-11-17 10:05:08.689678"
+        "dateTime": "Tue Nov 17 10:05:08 2019",
+        "price": 710
       },
       {
-        "price": 710.0,
-        "dateTime": "2019-11-18 05:31:51.100535"
+        "dateTime": "Tue Nov 18 05:31:51 2019",
+        "price": 710
       },
       {
-        "price": 839.99,
-        "dateTime": "2019-11-19 06:44:50.460888"
+        "dateTime": "Tue Nov 19 06:44:50 2019",
+        "price": 839.99
       },
       {
-        "price": 819.99,
-        "dateTime": "2019-11-21 05:45:36.573553"
+        "dateTime": "Tue Nov 21 05:45:36 2019",
+        "price": 819.99
       },
       {
-        "price": 839.99,
-        "dateTime": "2019-11-22 08:01:26.063904"
+        "dateTime": "Tue Nov 22 08:01:26 2019",
+        "price": 839.99
       },
       {
-        "price": 710.0,
-        "dateTime": "2019-11-26 06:02:01.591386"
+        "dateTime": "Tue Nov 26 06:02:01 2019",
+        "price": 710
       },
       {
-        "price": 710.0,
-        "dateTime": "2019-11-30 06:02:01.591386"
+        "dateTime": "Tue Nov 30 06:02:01 2019",
+        "price": 710
       },
       {
-        "price": 710.0,
-        "dateTime": "2019-12-06 06:55:42.714380"
+        "dateTime": "Tue Dec 06 06:55:42 2019",
+        "price": 710
       },
       {
-        "price": 699.96,
-        "dateTime": "2019-12-12 06:21:45.085301"
+        "dateTime": "Tue Dec 12 06:21:45 2019",
+        "price": 699.96
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:15 2019",
+        "price": 685
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:31 2019",
+        "price": 685
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "antondilon2@gmail.com"
-    ],
-    "rating": 3.7,
-    "available": true,
-    "URL": "https://www.amazon.ca/Apple-iPhone-GSM-Unlocked-5-8/dp/B07757R58W/ref=sr_1_4?keywords=iphone+x&qid=1575120631&sr=8-4",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/41O5dJlOQUL.jpg"
+    ]
   },
   {
     "_id": 6,
     "title": "Acer Predator Helios 300 Gaming Laptop PC, 15.6inch Full HD 144Hz 3ms IPS Display, Intel i7-9750H, GTX 1660 Ti 6GB, 16GB DDR4",
-    "priceToCompare": 1799.99,
+    "available": true,
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Acer-Predator-15-6inch-Display-i7-9750H/dp/B07QXLFLXT/ref=sr_1_3?keywords=acer+predator+300&qid=1573944185&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/712a83USPrL._AC_SX425_.jpg",
+    "priceToCompare": 1499.99,
     "priceList": [
       {
-        "price": 1599.99,
-        "dateTime": "2019-11-16 17:43:07.247753"
+        "dateTime": "Tue Nov 16 17:43:07 2019",
+        "price": 1599.99
       },
       {
-        "price": 1599.99,
-        "dateTime": "2019-11-17 10:05:10.056568"
+        "dateTime": "Tue Nov 17 10:05:10 2019",
+        "price": 1599.99
       },
       {
-        "price": 1599.99,
-        "dateTime": "2019-11-18 05:31:52.681938"
+        "dateTime": "Tue Nov 18 05:31:52 2019",
+        "price": 1599.99
       },
       {
-        "price": 1599.99,
-        "dateTime": "2019-11-19 06:44:51.941177"
+        "dateTime": "Tue Nov 19 06:44:51 2019",
+        "price": 1599.99
       },
       {
-        "price": 1499.99,
-        "dateTime": "2019-11-21 05:45:41.301181"
+        "dateTime": "Tue Nov 21 05:45:41 2019",
+        "price": 1499.99
       },
       {
-        "price": 1499.99,
-        "dateTime": "2019-11-22 08:01:27.516925"
+        "dateTime": "Tue Nov 22 08:01:27 2019",
+        "price": 1499.99
       },
       {
-        "price": 1499.99,
-        "dateTime": "2019-11-26 06:02:02.963950"
+        "dateTime": "Tue Nov 26 06:02:02 2019",
+        "price": 1499.99
       },
       {
-        "price": 1499.99,
-        "dateTime": "2019-11-30 17:53:56.511687"
+        "dateTime": "Tue Nov 30 17:53:56 2019",
+        "price": 1499.99
       },
       {
-        "price": 1799.99,
-        "dateTime": "2019-12-06 06:55:44.220667"
+        "dateTime": "Tue Dec 06 06:55:44 2019",
+        "price": 1799.99
       },
       {
-        "price": 1759.99,
-        "dateTime": "2019-12-12 06:21:46.548248"
+        "dateTime": "Tue Dec 12 06:21:46 2019",
+        "price": 1759.99
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:17 2019",
+        "price": 1499.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:34 2019",
+        "price": 1499.99
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "antondilon2@gmail.com"
-    ],
-    "rating": 0,
-    "available": true,
-    "URL": "https://www.amazon.ca/Acer-Predator-15-6inch-Display-i7-9750H/dp/B07QXLFLXT/ref=sr_1_3?keywords=acer+predator+300&qid=1573944185&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/712a83USPrL._AC_SX425_.jpg"
+    ]
   },
   {
     "_id": 7,
     "title": "Microsoft Surface Laptop Intel Core i5 7th Gen 8GB RAM 256GB SSD Win 10 Platinum (Renewed)",
-    "priceToCompare": 799.0,
+    "available": true,
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Microsoft-Surface-Laptop-Intel-Platinum/dp/B07FCZ3HG7/ref=sr_1_3?keywords=microsoft+surface&qid=1573944252&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71YWn3XKVkL._AC_SX679_.jpg",
+    "priceToCompare": 799,
     "priceList": [
       {
-        "price": 879.0,
-        "dateTime": "2019-11-16 17:44:14.575983"
+        "dateTime": "Tue Nov 16 17:44:14 2019",
+        "price": 879
       },
       {
-        "price": 879.0,
-        "dateTime": "2019-11-17 10:05:11.263624"
+        "dateTime": "Tue Nov 17 10:05:11 2019",
+        "price": 879
       },
       {
-        "price": 879.0,
-        "dateTime": "2019-11-18 05:31:54.099311"
+        "dateTime": "Tue Nov 18 05:31:54 2019",
+        "price": 879
       },
       {
-        "price": 879.0,
-        "dateTime": "2019-11-19 06:44:53.233677"
+        "dateTime": "Tue Nov 19 06:44:53 2019",
+        "price": 879
       },
       {
-        "price": 849.0,
-        "dateTime": "2019-11-21 05:45:42.670352"
+        "dateTime": "Tue Nov 21 05:45:42 2019",
+        "price": 849
       },
       {
-        "price": 849.0,
-        "dateTime": "2019-11-22 08:01:28.932431"
+        "dateTime": "Tue Nov 22 08:01:28 2019",
+        "price": 849
       },
       {
-        "price": 799.0,
-        "dateTime": "2019-11-26 06:02:07.031603"
+        "dateTime": "Tue Nov 26 06:02:07 2019",
+        "price": 799
       },
       {
-        "price": 799.0,
-        "dateTime": "2019-11-30 17:53:57.965486"
+        "dateTime": "Tue Nov 30 17:53:57 2019",
+        "price": 799
       },
       {
-        "price": 959.78,
-        "dateTime": "2019-12-06 06:55:45.637034"
+        "dateTime": "Tue Dec 06 06:55:45 2019",
+        "price": 959.78
       },
       {
-        "price": 799.0,
-        "dateTime": "2019-12-12 06:21:48.139582"
+        "dateTime": "Tue Dec 12 06:21:48 2019",
+        "price": 799
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:18 2019",
+        "price": 941.43
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:39 2019",
+        "price": 799
       }
     ],
     "emailList": [
       "kanugala@mcmaster.ca",
       "antondilon@gmail.com"
-    ],
-    "rating": 0,
-    "available": true,
-    "URL": "https://www.amazon.ca/Microsoft-Surface-Laptop-Intel-Platinum/dp/B07FCZ3HG7/ref=sr_1_3?keywords=microsoft+surface&qid=1573944252&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71YWn3XKVkL._AC_SX679_.jpg"
+    ]
   },
   {
     "_id": 8,
     "title": "AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, 150 Pack",
+    "available": true,
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/AmazonBasics-Presharpened-Wood-Cased-Pencils/dp/B071JM699P/ref=sr_1_5?keywords=pencil&qid=1573944272&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81D-mcEb58L._AC_SX522_.jpg",
     "priceToCompare": 18.26,
     "priceList": [
       {
-        "price": 16.77,
-        "dateTime": "2019-11-16 17:44:36.202089"
+        "dateTime": "Tue Nov 16 17:44:36 2019",
+        "price": 16.77
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-11-17 10:05:12.673612"
+        "dateTime": "Tue Nov 17 10:05:12 2019",
+        "price": 16.77
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-11-18 05:31:55.765290"
+        "dateTime": "Tue Nov 18 05:31:55 2019",
+        "price": 16.77
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-11-19 06:44:55.123953"
+        "dateTime": "Tue Nov 19 06:44:55 2019",
+        "price": 16.77
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-11-21 05:45:44.142711"
+        "dateTime": "Tue Nov 21 05:45:44 2019",
+        "price": 16.77
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-11-22 08:01:30.411353"
+        "dateTime": "Tue Nov 22 08:01:30 2019",
+        "price": 16.77
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-11-26 06:02:08.792933"
+        "dateTime": "Tue Nov 26 06:02:08 2019",
+        "price": 16.77
       },
       {
-        "price": 14.25,
-        "dateTime": "2019-11-30 17:53:59.815013"
+        "dateTime": "Tue Nov 30 17:53:59 2019",
+        "price": 14.25
       },
       {
-        "price": 16.77,
-        "dateTime": "2019-12-06 06:55:47.393294"
+        "dateTime": "Tue Dec 06 06:55:47 2019",
+        "price": 16.77
       },
       {
-        "price": 18.26,
-        "dateTime": "2019-12-12 06:21:50.089960"
+        "dateTime": "Tue Dec 12 06:21:50 2019",
+        "price": 18.26
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:20 2019",
+        "price": 18.26
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:43 2019",
+        "price": 18.26
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 4.4,
-    "available": true,
-    "URL": "https://www.amazon.ca/AmazonBasics-Presharpened-Wood-Cased-Pencils/dp/B071JM699P/ref=sr_1_5?keywords=pencil&qid=1573944272&sr=8-5",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81D-mcEb58L._AC_SX522_.jpg"
+    ]
   },
   {
     "_id": 9,
     "title": "Borderlands 3 Super Deluxe Edition - PlayStation 4",
-    "priceToCompare": 150.8,
+    "available": true,
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A04448471KK4GL9YYZQLP&url=%2F2K-57505-Borderlands-Super-Deluxe%2Fdp%2FB07V38MQZP%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dps4%26qid%3D1573944317%26sr%3D8-2-spons%26psc%3D1&qualifier=1573944317&id=8501588498947539&widgetName=sp_atf",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/911uWwnshOL._SX425_.jpg",
+    "priceToCompare": 89.99,
     "priceList": [
       {
-        "price": 119.99,
-        "dateTime": "2019-11-16 17:45:19.093077"
+        "dateTime": "Tue Nov 16 17:45:19 2019",
+        "price": 119.99
       },
       {
-        "price": 119.99,
-        "dateTime": "2019-11-17 10:05:14.142820"
+        "dateTime": "Tue Nov 17 10:05:14 2019",
+        "price": 119.99
       },
       {
-        "price": 119.99,
-        "dateTime": "2019-11-18 05:31:57.363304"
+        "dateTime": "Tue Nov 18 05:31:57 2019",
+        "price": 119.99
       },
       {
-        "price": 119.99,
-        "dateTime": "2019-11-19 06:44:56.958583"
+        "dateTime": "Tue Nov 19 06:44:56 2019",
+        "price": 119.99
       },
       {
-        "price": 145.97,
-        "dateTime": "2019-11-21 05:45:47.137363"
+        "dateTime": "Tue Nov 21 05:45:47 2019",
+        "price": 145.97
       },
       {
-        "price": 119.99,
-        "dateTime": "2019-11-22 08:01:33.368759"
+        "dateTime": "Tue Nov 22 08:01:33 2019",
+        "price": 119.99
       },
       {
-        "price": 119.99,
-        "dateTime": "2019-11-26 06:02:10.174398"
+        "dateTime": "Tue Nov 26 06:02:10 2019",
+        "price": 119.99
       },
       {
-        "price": 89.99,
-        "dateTime": "2019-11-30 17:54:01.351276"
+        "dateTime": "Tue Nov 30 17:54:01 2019",
+        "price": 89.99
       },
       {
-        "price": 119.99,
-        "dateTime": "2019-12-06 06:55:48.969090"
+        "dateTime": "Tue Dec 06 06:55:48 2019",
+        "price": 119.99
       },
       {
-        "price": 150.8,
-        "dateTime": "2019-12-12 06:21:51.953719"
+        "dateTime": "Tue Dec 12 06:21:51 2019",
+        "price": 150.8
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:22 2019",
+        "price": 89.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:48 2019",
+        "price": 89.99
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 4.6,
-    "available": true,
-    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A04448471KK4GL9YYZQLP&url=%2F2K-57505-Borderlands-Super-Deluxe%2Fdp%2FB07V38MQZP%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dps4%26qid%3D1573944317%26sr%3D8-2-spons%26psc%3D1&qualifier=1573944317&id=8501588498947539&widgetName=sp_atf",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/911uWwnshOL._SX425_.jpg"
+    ]
   },
   {
     "_id": 10,
     "title": "PlayStation 4 - 1TB Slim - Console Edition",
-    "priceToCompare": 399.99,
+    "available": true,
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/Playstation-4-1TB-Slim-Console/dp/B074LRF639/ref=sr_1_3?keywords=ps4+console&qid=1573944329&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/715RBdgZtHL._SX425_.jpg",
+    "priceToCompare": 349.99,
     "priceList": [
       {
-        "price": 366.14,
-        "dateTime": "2019-11-16 17:45:32.057924"
+        "dateTime": "Tue Nov 16 17:45:32 2019",
+        "price": 366.14
       },
       {
-        "price": 364.98,
-        "dateTime": "2019-11-17 10:05:15.640184"
+        "dateTime": "Tue Nov 17 10:05:15 2019",
+        "price": 364.98
       },
       {
-        "price": 366.14,
-        "dateTime": "2019-11-18 05:31:59.180605"
+        "dateTime": "Tue Nov 18 05:31:59 2019",
+        "price": 366.14
       },
       {
-        "price": 366.09,
-        "dateTime": "2019-11-19 06:44:58.531624"
+        "dateTime": "Tue Nov 19 06:44:58 2019",
+        "price": 366.09
       },
       {
-        "price": 363.99,
-        "dateTime": "2019-11-21 05:45:48.665509"
+        "dateTime": "Tue Nov 21 05:45:48 2019",
+        "price": 363.99
       },
       {
-        "price": 379.99,
-        "dateTime": "2019-11-22 08:01:34.939911"
+        "dateTime": "Tue Nov 22 08:01:34 2019",
+        "price": 379.99
       },
       {
-        "price": 399.99,
-        "dateTime": "2019-11-26 06:02:14.785872"
+        "dateTime": "Tue Nov 26 06:02:14 2019",
+        "price": 399.99
       },
       {
-        "price": 379.99,
-        "dateTime": "2019-11-30 17:54:03.134607"
+        "dateTime": "Tue Nov 30 17:54:03 2019",
+        "price": 379.99
       },
       {
-        "price": 379.99,
-        "dateTime": "2019-12-06 06:55:50.517523"
+        "dateTime": "Tue Dec 06 06:55:50 2019",
+        "price": 379.99
       },
       {
-        "price": 399.99,
-        "dateTime": "2019-12-12 06:21:53.745611"
+        "dateTime": "Tue Dec 12 06:21:53 2019",
+        "price": 399.99
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:24 2019",
+        "price": 349.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:52 2019",
+        "price": 339.99
+      },
+      {
+        "dateTime": "Tue Dec 31 10:55:59 2019",
+        "price": 339.99
       }
     ],
     "emailList": [
       "antondilon@gmail.com",
       "antondilon2@gmail.com"
-    ],
-    "rating": 4.6,
-    "available": true,
-    "URL": "https://www.amazon.ca/Playstation-4-1TB-Slim-Console/dp/B074LRF639/ref=sr_1_3?keywords=ps4+console&qid=1573944329&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/715RBdgZtHL._SX425_.jpg"
+    ]
   },
   {
     "_id": 11,
     "title": "Apple MMEF2AM/A AirPods Wireless Bluetooth Headset for iPhones with iOS 10 or Later White",
-    "priceToCompare": 284.99,
+    "available": true,
+    "rating": 0,
+    "URL": "https://www.amazon.ca/Apple-MMEF2AM-AirPods-Wireless-Bluetooth/dp/B01MQWUXZS/ref=sr_1_5?keywords=airpods&qid=1573944409&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41DYtv1JJaL._AC_SX425_.jpg",
+    "priceToCompare": 249.99,
     "priceList": [
       {
-        "price": 250.93,
-        "dateTime": "2019-11-16 17:46:51.836071"
+        "dateTime": "Tue Nov 16 17:46:51 2019",
+        "price": 250.93
       },
       {
-        "price": 249.86,
-        "dateTime": "2019-11-17 10:05:17.172032"
+        "dateTime": "Tue Nov 17 10:05:17 2019",
+        "price": 249.86
       },
       {
-        "price": 249.8,
-        "dateTime": "2019-11-18 05:32:00.957151"
+        "dateTime": "Tue Nov 18 05:32:00 2019",
+        "price": 249.8
       },
       {
-        "price": 249.98,
-        "dateTime": "2019-11-19 06:45:00.125875"
+        "dateTime": "Tue Nov 19 06:45:00 2019",
+        "price": 249.98
       },
       {
-        "price": 249.97,
-        "dateTime": "2019-11-21 05:45:50.063812"
+        "dateTime": "Tue Nov 21 05:45:50 2019",
+        "price": 249.97
       },
       {
-        "price": 249.97,
-        "dateTime": "2019-11-22 08:01:36.178213"
+        "dateTime": "Tue Nov 22 08:01:36 2019",
+        "price": 249.97
       },
       {
-        "price": 250.56,
-        "dateTime": "2019-11-26 06:02:16.015565"
+        "dateTime": "Tue Nov 26 06:02:16 2019",
+        "price": 250.56
       },
       {
-        "price": 279.72,
-        "dateTime": "2019-11-30 17:54:04.732719"
+        "dateTime": "Tue Nov 30 17:54:04 2019",
+        "price": 279.72
       },
       {
-        "price": 269.0,
-        "dateTime": "2019-12-06 06:55:52.051829"
+        "dateTime": "Tue Dec 06 06:55:52 2019",
+        "price": 269
       },
       {
-        "price": 284.99,
-        "dateTime": "2019-12-12 06:21:55.429514"
+        "dateTime": "Tue Dec 12 06:21:55 2019",
+        "price": 284.99
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:25 2019",
+        "price": 272.71
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:56 2019",
+        "price": 249.99
       }
     ],
     "emailList": [
       "antondilon2@gmail.com"
-    ],
-    "rating": 0,
-    "available": true,
-    "URL": "https://www.amazon.ca/Apple-MMEF2AM-AirPods-Wireless-Bluetooth/dp/B01MQWUXZS/ref=sr_1_5?keywords=airpods&qid=1573944409&sr=8-5",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/41DYtv1JJaL._AC_SX425_.jpg"
+    ]
   },
   {
     "_id": 12,
     "title": "LG 34UM69G-B 34\" 21:9 UltraWide IPS Monitor with 1ms Motion Blur Reduction and FreeSync, Black",
-    "priceToCompare": 369.99,
+    "available": true,
+    "rating": 4.5,
+    "URL": "https://www.amazon.ca/LG-34UM69G-B-34-UltraWide-Reduction/dp/B06XFXX5JH/ref=sr_1_3?keywords=LG+34+monitor&qid=1573991928&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81tjaxZL6IL._AC_SX679_.jpg",
+    "priceToCompare": 398,
     "priceList": [
       {
-        "price": 419.99,
-        "dateTime": "2019-11-17 06:58:50.520555"
+        "dateTime": "Tue Nov 17 06:58:50 2019",
+        "price": 419.99
       },
       {
-        "price": 419.99,
-        "dateTime": "2019-11-17 10:05:18.853189"
+        "dateTime": "Tue Nov 17 10:05:18 2019",
+        "price": 419.99
       },
       {
-        "price": 419.99,
-        "dateTime": "2019-11-18 05:32:03.508185"
+        "dateTime": "Tue Nov 18 05:32:03 2019",
+        "price": 419.99
       },
       {
-        "price": 419.99,
-        "dateTime": "2019-11-19 06:45:02.145139"
+        "dateTime": "Tue Nov 19 06:45:02 2019",
+        "price": 419.99
       },
       {
-        "price": 378.55,
-        "dateTime": "2019-11-21 05:45:53.486742"
+        "dateTime": "Tue Nov 21 05:45:53 2019",
+        "price": 378.55
       },
       {
-        "price": 378.55,
-        "dateTime": "2019-11-22 08:01:37.652307"
+        "dateTime": "Tue Nov 22 08:01:37 2019",
+        "price": 378.55
       },
       {
-        "price": 378.55,
-        "dateTime": "2019-11-26 06:02:17.687140"
+        "dateTime": "Tue Nov 26 06:02:17 2019",
+        "price": 378.55
       },
       {
-        "price": 378.55,
-        "dateTime": "2019-11-30 17:54:06.941327"
+        "dateTime": "Tue Nov 30 17:54:06 2019",
+        "price": 378.55
       },
       {
-        "price": 419.99,
-        "dateTime": "2019-12-06 06:55:53.983416"
+        "dateTime": "Tue Dec 06 06:55:53 2019",
+        "price": 419.99
       },
       {
-        "price": 369.99,
-        "dateTime": "2019-12-12 06:21:57.313078"
+        "dateTime": "Tue Dec 12 06:21:57 2019",
+        "price": 369.99
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:27 2019",
+        "price": 398
+      },
+      {
+        "dateTime": "Tue Dec 31 05:36:59 2019",
+        "price": 389
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 4.5,
-    "available": true,
-    "URL": "https://www.amazon.ca/LG-34UM69G-B-34-UltraWide-Reduction/dp/B06XFXX5JH/ref=sr_1_3?keywords=LG+34+monitor&qid=1573991928&sr=8-3",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/81tjaxZL6IL._AC_SX679_.jpg"
+    ]
   },
   {
     "_id": 13,
-    "title": "ICEBERG Water \u2013 Harvested from Newfoundland Icebergs \u2013 1L Bottle with < 5 PPM",
+    "title": "ICEBERG Water – Harvested from Newfoundland Icebergs – 1L Bottle with < 5 PPM",
+    "available": false,
+    "rating": 5,
+    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A05202181IBS25F63BKA1&url=%2FICEBERG-Water-Harvested-Newfoundland-Icebergs%2Fdp%2FB07WNXTJNH%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dwater%26qid%3D1573991948%26sr%3D8-2-spons%26psc%3D1&qualifier=1573991948&id=7384677007132163&widgetName=sp_atf",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61AjYI5PbhL._SX385_.jpg",
     "priceToCompare": 19.59,
     "priceList": [
       {
-        "price": 13.97,
-        "dateTime": "2019-11-17 06:59:10.174719"
+        "dateTime": "Tue Nov 17 06:59:10 2019",
+        "price": 13.97
       },
       {
-        "price": 13.97,
-        "dateTime": "2019-11-17 10:05:19.998034"
+        "dateTime": "Tue Nov 17 10:05:19 2019",
+        "price": 13.97
       },
       {
-        "price": 13.97,
-        "dateTime": "2019-11-18 05:32:04.945817"
+        "dateTime": "Tue Nov 18 05:32:04 2019",
+        "price": 13.97
       },
       {
-        "price": 13.97,
-        "dateTime": "2019-11-19 06:45:03.409734"
+        "dateTime": "Tue Nov 19 06:45:03 2019",
+        "price": 13.97
       },
       {
-        "price": 13.97,
-        "dateTime": "2019-11-21 05:45:54.787369"
+        "dateTime": "Tue Nov 21 05:45:54 2019",
+        "price": 13.97
       },
       {
-        "price": 13.97,
-        "dateTime": "2019-11-22 08:01:38.884270"
+        "dateTime": "Tue Nov 22 08:01:38 2019",
+        "price": 13.97
       },
       {
-        "price": 13.97,
-        "dateTime": "2019-11-26 06:02:18.916192"
+        "dateTime": "Tue Nov 26 06:02:18 2019",
+        "price": 13.97
       },
       {
-        "price": 19.59,
-        "dateTime": "2019-11-30 17:54:09.148437"
+        "dateTime": "Tue Nov 30 17:54:09 2019",
+        "price": 19.59
       },
       {
-        "price": 19.59,
-        "dateTime": "2019-12-06 06:55:55.408350"
+        "dateTime": "Tue Dec 06 06:55:55 2019",
+        "price": 19.59
       },
       {
-        "price": 19.59,
-        "dateTime": "2019-12-12 06:21:58.894087"
+        "dateTime": "Tue Dec 12 06:21:58 2019",
+        "price": 19.59
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 5.0,
-    "available": false,
-    "URL": "https://www.amazon.ca/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_2?ie=UTF8&adId=A05202181IBS25F63BKA1&url=%2FICEBERG-Water-Harvested-Newfoundland-Icebergs%2Fdp%2FB07WNXTJNH%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dwater%26qid%3D1573991948%26sr%3D8-2-spons%26psc%3D1&qualifier=1573991948&id=7384677007132163&widgetName=sp_atf",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61AjYI5PbhL._SX385_.jpg"
+    ]
   },
   {
     "_id": 14,
     "title": "Anne Pro 2 Mechanical Gaming Keyboard 60% True RGB Backlit - Wired/Wireless Bluetooth 4.0 PBT Type-c Up to 8 Hours Extended Battery Life, Full Keys Programmable by Obins (Khail Box Red, Black)",
-    "priceToCompare": 179.0,
+    "available": true,
+    "rating": 5,
+    "URL": "https://www.amazon.ca/Anne-Mechanical-Gaming-Keyboard-Backlit/dp/B07MNZ24HP",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/6140akv6t4L._SX679_.jpg",
+    "priceToCompare": 179,
     "priceList": [
       {
-        "price": 155.68,
-        "dateTime": "2019-11-17 06:59:10.174719"
+        "dateTime": "Tue Nov 17 06:59:10 2019",
+        "price": 155.68
       },
       {
-        "price": 155.68,
-        "dateTime": "2019-11-17 10:05:19.998034"
+        "dateTime": "Tue Nov 17 10:05:19 2019",
+        "price": 155.68
       },
       {
-        "price": 155.99,
-        "dateTime": "2019-11-18 05:32:04.945817"
+        "dateTime": "Tue Nov 18 05:32:04 2019",
+        "price": 155.99
       },
       {
-        "price": 170.05,
-        "dateTime": "2019-11-19 06:45:03.409734"
+        "dateTime": "Tue Nov 19 06:45:03 2019",
+        "price": 170.05
       },
       {
-        "price": 155.68,
-        "dateTime": "2019-11-21 05:45:54.787369"
+        "dateTime": "Tue Nov 21 05:45:54 2019",
+        "price": 155.68
       },
       {
-        "price": 155.68,
-        "dateTime": "2019-11-22 08:01:38.884270"
+        "dateTime": "Tue Nov 22 08:01:38 2019",
+        "price": 155.68
       },
       {
-        "price": 155.68,
-        "dateTime": "2019-11-26 06:02:18.916192"
+        "dateTime": "Tue Nov 26 06:02:18 2019",
+        "price": 155.68
       },
       {
-        "price": 155.68,
-        "dateTime": "2019-12-06 06:55:55.408350"
+        "dateTime": "Tue Dec 06 06:55:55 2019",
+        "price": 155.68
       },
       {
-        "price": 179.0,
-        "dateTime": "2019-12-12 06:22:00.424065"
+        "dateTime": "Tue Dec 12 06:22:00 2019",
+        "price": 179
+      },
+      {
+        "dateTime": "Tue Dec 26 08:54:30 2019",
+        "price": 179
+      },
+      {
+        "dateTime": "Tue Dec 31 05:37:08 2019",
+        "price": 179
       }
     ],
     "emailList": [
       "antondilon@gmail.com"
-    ],
-    "rating": 5.0,
+    ]
+  },
+  {
+    "_id": 15,
+    "title": "Echo Dot (3rd gen) - Smart speaker with Alexa - Charcoal",
     "available": true,
-    "URL": "https://www.amazon.ca/Anne-Mechanical-Gaming-Keyboard-Backlit/dp/B07MNZ24HP",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/6140akv6t4L._SX679_.jpg"
-  }
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/Echo-Dot-3rd-gen-Charcoal/dp/B07PDHT5XP/ref=sr_1_1?keywords=echo&qid=1577736705&sr=8-1",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Raf5plhbL._SX569_.jpg",
+    "priceToCompare": 34.99,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 30 15:12:00 2019",
+        "price": 34.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:37:12 2019",
+        "price": 34.99
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 16,
+    "title": "Echo Plus (2nd gen) – Premium sound with built-in smart home hub - Charcoal",
+    "available": true,
+    "rating": 4.4,
+    "URL": "https://www.amazon.ca/All-new-Echo-Plus-2nd-built/dp/B0794VRH3Q/ref=sr_1_5?keywords=alexa&qid=1577737288&smid=A3DWYIK6Y9EEQB&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61wZfHeb3VL._AC_SX522_.jpg",
+    "priceToCompare": 41.99,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 30 20:21:34 2019",
+        "price": 41.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:37:16 2019",
+        "price": 41.99
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 17,
+    "title": "Echo Spot - Smart Display with Alexa - Black",
+    "available": true,
+    "rating": 4.3,
+    "URL": "https://www.amazon.ca/Amazon-VN94DQ-Echo-Spot-Black/dp/B074BJJL9N/ref=sr_1_5?keywords=alexa&qid=1577737345&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61XbZPE%2BnHL._AC_SY450_.jpg",
+    "priceToCompare": 29.99,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 30 20:22:42 2019",
+        "price": 29.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:37:21 2019",
+        "price": 29.99
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 19,
+    "title": "Echo Dot (3rd gen) – Smart speaker with clock and Alexa – Sandstone",
+    "available": true,
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/Staging-Product-Not-Retail-Sale/dp/B07NQ8YDJZ/ref=sr_1_1?keywords=echo&qid=1577738601&smid=A3DWYIK6Y9EEQB&sr=8-1",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61hg-ChavgL._SX679_.jpg",
+    "priceToCompare": 34.99,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 30 20:43:26 2019",
+        "price": 34.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:37:29 2019",
+        "price": 34.99
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 20,
+    "title": "Google Whole Home Mesh Wi-Fi System (set of 3) [US Version]",
+    "available": true,
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/Google-Whole-Wi-Fi-System-Version/dp/B01MAW2294/ref=sr_1_3?keywords=google&qid=1577740538&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Ij3OgXtvL._SX450_.jpg",
+    "priceToCompare": 299.99,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 30 21:15:42 2019",
+        "price": 299.99
+      },
+      {
+        "dateTime": "Tue Dec 31 05:37:33 2019",
+        "price": 299.99
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 21,
+    "title": "Nintendo Switch with Neon Blue and Neon Red Joy‑Con",
+    "available": true,
+    "rating": 4.6,
+    "URL": "https://www.amazon.ca/Nintendo-Switch-Neon-Blue-Joy%E2%80%91/dp/B07VGRJDFY/ref=sr_1_3?keywords=Nintendo+Switch&qid=1577799039&sr=8-3",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61JnrafZ7zL._SX522_.jpg",
+    "priceToCompare": 383.83,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 31 08:30:45 2019",
+        "price": 383.83
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 22,
+    "title": "Zinus Memory Foam 12 Inch Green Tea Mattress, Queen",
+    "available": true,
+    "rating": 4.2,
+    "URL": "https://www.amazon.ca/Zinus-Memory-Green-Mattress-Queen/dp/B00Q7EPSHI/ref=sr_1_5?keywords=mattress&qid=1577799164&smid=A3DWYIK6Y9EEQB&sr=8-5",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81O78F-CrKL._AC_SX569_.jpg",
+    "priceToCompare": 339,
+    "priceList": [
+      {
+        "dateTime": "Tue Dec 31 08:32:51 2019",
+        "price": 339
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+  },
+  {
+    "_id": 23,
+    "title": "JORDAN JORDAN FLIGHT TR'97 Style# 428826 MENS",
+    "available": true,
+    "rating": 0,
+    "URL": "https://www.amazon.ca/NIKE-Mens-Check-Solar-Skate/dp/B071NJDSYS/ref=sr_1_9?dchild=1&keywords=nike%2Bshoes&qid=1577799554&sr=8-9&th=1",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81jHHaQcyAL._AC_SX695._SX._UX._SY._UY_.jpg",
+    "priceToCompare": 41.85,
+    "priceList":
+     [
+      {
+        "dateTime": "Tue Dec 31 08:39:20 2019",
+        "price": 41.85
+      }
+    ],
+    "emailList": [
+      "antondilon@gmail.com"
+    ]
+   }
 ]

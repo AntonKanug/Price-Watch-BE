@@ -64,12 +64,12 @@ def priceChecker():
             {'$push': {
                 'priceList': {
                     'price': newPriceF, 
-                    'dateTime': str(datetime.datetime.now())
+                    'dateTime': str(datetime.datetime.now().strftime("%c"))
                 }}})
 
             #Printing confirmation
             print("✅  %s - Price Updated"% product['title'])
-            print("💵  $%.2f - New Price  \n📅  %s \n"  % (newPriceF,  str(datetime.datetime.now())))
+            print("💵  $%.2f - New Price  \n📅  %s \n"  % (newPriceF,  str(datetime.datetime.now().strftime("%c"))))
         except:
             print("❌  parser not working")
             return "Not Updated", 404
