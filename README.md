@@ -5,7 +5,7 @@
 
 ## Price Watch
 
-A Web application to track prices of products from Amazon. Using the frontend all prices can be monitored with it's changes over time. When the price of a product changes an email is sent to user who are monitoring the price of a product. The "Add Product" feature is currently under development.
+A Web application to track prices of products from Amazon. Using the frontend all prices can be monitored with it's changes over time. When the price of a product changes an email is sent to user who are monitoring the price of a product. The "Add Product" feature is currently under development. [Click here for a demo of the app ↗](https://www.youtube.com/watch?v=3Q5fvYWOT_U&feature=youtu.be)
 
 Frontend Built Using: `React, JavaScript, HTML, CSS, Material, Charts.js, Axios, npm, Adobe XD, Firebase`
 
