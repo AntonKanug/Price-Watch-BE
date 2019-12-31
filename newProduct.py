@@ -81,12 +81,13 @@ def newProduct(product, email):
         imageURLScraped = soup.find('img', {"class": 'a-dynamic-image'})['data-a-dynamic-image']
         imageURLList = imageURLScraped.split("\"") #Due to multiple sizes of images spliting to select one
         imageURL = imageURLList[1]
-
-        productStock = soup.find(id='availability').text.strip()
-        if productStock == "In Stock.":
+        print(productURL)
+        try:
+            newPriceF = float(productPrice[5:].replace(',',''))
             productAvailable = True
-        else:
+        except:
             productAvailable = False
+            exit()
 
         ##JSON 
         # #Reading data.json file
@@ -127,9 +128,9 @@ def newProduct(product, email):
         if not productInList:
             post = { '_id': content[-1]['_id']+1, 
                     'title': productTitle,
-                    'priceToCompare': float(productPrice[5:].replace(',','')),  
+                    'priceToCompare': newPriceF,  
                     'priceList': [{
-                        'price': float(productPrice[5:].replace(',','')), 
+                        'price': newPriceF, 
                         'dateTime': str(datetime.datetime.now())
                         }],
                     'emailList': [email],
