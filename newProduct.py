@@ -65,7 +65,7 @@ def newProduct(product, email):
         # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
         ##Price of the product
-        productPrice = soup.find('span', {'class':'a-color-price'}).text.strip() #Accesing through product page to avoid discounts and sponosored products
+        productPrice = soup.find(id='priceblock_ourprice').text.strip() #Accesing through product page to avoid discounts and sponosored products
 
         ##Title of the product
         productTitle = soup.find(id='productTitle').text.strip()

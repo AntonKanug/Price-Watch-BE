@@ -38,7 +38,7 @@ def priceChecker():
             # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
             #Price of the product
-            newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
+            newPrice = soup.find(id='priceblock_ourprice').text.strip()
             # availability = soup.find(id='availability').text.strip()
             if newPrice == "Currently unavailable.":
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
