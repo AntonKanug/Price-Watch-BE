@@ -19,7 +19,6 @@ agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) 
 def newProduct(product, email):
     # try:
     # #Requesting the serach page 
-    print(product)
     if product[:22] != "https://www.amazon.ca/" and product[:23] != "https://www.amazon.com/":
         ##---REQUESTS
         URL = 'https://www.amazon.ca/s?k=' + product #Search URL
@@ -56,7 +55,6 @@ def newProduct(product, email):
 
     else:
         productURL = product
-    print(productURL)
     # response = requests.get(productURL, headers = {'User-Agent' : agent})
     # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
     params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url':productURL}
@@ -72,7 +70,10 @@ def newProduct(product, email):
     try:
         productPrice = soup.find(id='priceblock_ourprice').text.strip() #Accesing through product page to avoid discounts and sponosored products
     except:
-        productPrice = soup.find(id='priceblock_dealprice').text.strip()
+        try:
+            productPrice = soup.find(id='priceblock_dealprice').text.strip()
+        except:
+            productPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
 
     ##Title of the product
     productTitle = soup.find(id='productTitle').text.strip()

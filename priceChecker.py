@@ -38,7 +38,18 @@ def priceChecker():
             # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
             #Price of the product
-            newPrice = soup.find(id='priceblock_ourprice').text.strip()
+            try:
+                newPrice = soup.find(id='priceblock_ourprice').text.strip() #Accesing through product page to avoid discounts and sponosored products
+            except:
+                try:
+                    newPrice = soup.find(id='priceblock_dealprice').text.strip()
+                except:
+                    try:
+                        newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
+                    except:
+                        collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
+                        continue
+
             # availability = soup.find(id='availability').text.strip()
             if newPrice == "Currently unavailable.":
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
@@ -47,11 +58,11 @@ def priceChecker():
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
 
             try:
-                productPriceArr = productPrice.split()
-                newPriceF = float(productPriceArr[1])
+                newPriceArr = newPrice.split()
+                newPriceF = float(newPriceArr[1])
             except:
                 try:
-                    newPriceF = float(productPrice[1:])
+                    newPriceF = float(newPrice[1:])
                 except:
                     collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
                     continue
