@@ -20,7 +20,7 @@ def newProduct(product, email):
 
     try:
         #Requesting the serach page 
-        if product[:22] != "https://www.amazon.ca/":
+        if product[:22] != "https://www.amazon.ca/" and product[:23] != "https://www.amazon.com/":
             ##---REQUESTS
             URL = 'https://www.amazon.ca/s?k=' + product #Search URL
             params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url':URL}
