@@ -50,8 +50,11 @@ def priceChecker():
                 productPriceArr = productPrice.split()
                 newPriceF = float(productPriceArr[1])
             except:
-                collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
-                continue
+                try:
+                    newPriceF = float(productPrice[1:])
+                except:
+                    collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
+                    continue
 
             oldPrice = product['priceToCompare']
             #Send Email if price lower than 5%
