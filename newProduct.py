@@ -20,39 +20,43 @@ def newProduct(product, email):
 
     try:
         #Requesting the serach page 
+        if product[:22] != "https://www.amazon.ca/":
+            ##---REQUESTS
+            URL = 'https://www.amazon.ca/s?k=' + product #Search URL
+            params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url':URL}
+            response = requests.get('http://api.scrapestack.com/scrape', params)
+            soup = BeautifulSoup(response.text, "lxml") #Intializing soup
 
-        ##---REQUESTS
-        URL = 'https://www.amazon.ca/s?k=' + product #Search URL
-        params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url':URL}
-        response = requests.get('http://api.scrapestack.com/scrape', params)
-        soup = BeautifulSoup(response.text, "lxml") #Intializing soup
+            ##---URLLIB2
+            # URL = 'https://www.amazon.ca/s?k=' + urllib2.quote(product)  #Search URL
+            # response = urllib2.urlopen(URL).read()
+            # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
-        ##---URLLIB2
-        # URL = 'https://www.amazon.ca/s?k=' + urllib2.quote(product)  #Search URL
-        # response = urllib2.urlopen(URL).read()
-        # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
+            #Excluding sponsored content from search results
+            sponsored, i = True, 0
+            while sponsored:
+                if soup.findAll("span", {"class": "a-size-base a-color-secondary"})[i].text == "Sponsored": #Checking if sponsored
+                    sponsored=True
+                    i+=1
+                else:
+                    sponsored=False
+            '''
+            #To avoid sponsored content on the header
+            if soup.find('span', {'class':'sponsoredBy__label'}).text=="Sponsored by ":
+                i+=3 #If there are sponsored content on the header there is always 3 products
+            '''
 
-        #Excluding sponsored content from search results
-        sponsored, i = True, 0
-        while sponsored:
-            if soup.findAll("span", {"class": "a-size-base a-color-secondary"})[i].text == "Sponsored": #Checking if sponsored
-                sponsored=True
-                i+=1
-            else:
-                sponsored=False
-        '''
-        #To avoid sponsored content on the header
-        if soup.find('span', {'class':'sponsoredBy__label'}).text=="Sponsored by ":
-            i+=3 #If there are sponsored content on the header there is always 3 products
-        '''
+            #Product's page
+            productAddress = soup.findAll("a", {"class": "a-link-normal a-text-normal"})[i]['href']
 
-        #Product's page
-        productAddress = soup.findAll("a", {"class": "a-link-normal a-text-normal"})[i]['href']
+            ##Requesting the product page 
 
-        ##Requesting the product page 
+            ##---REQUESTS
+            productURL = 'https://www.amazon.ca' + productAddress
 
-        ##---REQUESTS
-        productURL = 'https://www.amazon.ca' + productAddress
+        else:
+            productURL = product
+
         # response = requests.get(productURL, headers = {'User-Agent' : agent})
         # soup = BeautifulSoup(response.text, "lxml") #Intializing soup
         params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url':productURL}
@@ -65,7 +69,10 @@ def newProduct(product, email):
         # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
         ##Price of the product
-        productPrice = soup.find(id='priceblock_ourprice').text.strip() #Accesing through product page to avoid discounts and sponosored products
+        try:
+            productPrice = soup.find(id='priceblock_ourprice').text.strip() #Accesing through product page to avoid discounts and sponosored products
+        except:
+            productPrice = soup.find(id='priceblock_dealprice').text.strip()
 
         ##Title of the product
         productTitle = soup.find(id='productTitle').text.strip()
