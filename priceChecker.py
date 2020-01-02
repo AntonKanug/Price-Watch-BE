@@ -57,6 +57,8 @@ def priceChecker():
             else:
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
 
+            newPrice = newPrice.replace(",","")
+            
             try:
                 newPriceArr = newPrice.split()
                 newPriceF = float(newPriceArr[1])

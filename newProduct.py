@@ -90,6 +90,9 @@ def newProduct(product, email):
     imageURLList = imageURLScraped.split("\"") #Due to multiple sizes of images spliting to select one
     imageURL = imageURLList[1]
     print(productURL)
+    
+    productPrice = productPrice.replace(",","")
+    
     try:
         productPriceArr = productPrice.split()
         newPriceF = float(productPriceArr[1])
