@@ -72,7 +72,7 @@ def priceChecker():
             oldPrice = product['priceToCompare']
             #Send Email if price lower than 5%
             if int(abs((newPriceF - oldPrice)*100/newPriceF)) >= 5 :
-                # sendEMail(product['_id'], newPriceF, product['priceToCompare'], product['title'], product['URL'], product['image'], product['emailList'])
+                sendEMail(product['_id'], newPriceF, product['priceToCompare'], product['title'], product['URL'], product['image'], product['emailList'])
                 collection.update_one({'_id': product['_id']}, {'$set': {'priceToCompare': newPriceF}})
 
             #Appending price to list
