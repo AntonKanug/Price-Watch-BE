@@ -134,3 +134,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 __pycache__/sendEMail.cpython-37.pyc
+test.py
