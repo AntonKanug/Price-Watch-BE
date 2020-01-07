@@ -48,42 +48,48 @@ from newProduct import newProduct
 # print(x[0:21])
 
 # newProduct("apple", 'antondilon@gmail.com')
-URL = "https://www.amazon.com/Hewlett-Packard-Enterprise-Graphics-Card/dp/B07SZWX14R/ref=sr_1_1?qid=1577956512&s=computers-intl-ship&sr=1-1"
-params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url': URL}
-response = requests.get('http://api.scrapestack.com/scrape', params)
-soup = BeautifulSoup(response.text, "lxml")  #Intializing soup
-available = True
-# response = urllib2.urlopen(product['URL']).read()
-# soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
+# URL = "https://www.amazon.com/Hewlett-Packard-Enterprise-Graphics-Card/dp/B07SZWX14R/ref=sr_1_1?qid=1577956512&s=computers-intl-ship&sr=1-1"
+# params = {'access_key': '99ea3af699d6d012f9e7df82ac868e3f', 'url': URL}
+# response = requests.get('http://api.scrapestack.com/scrape', params)
+# soup = BeautifulSoup(response.text, "lxml")  #Intializing soup
+# available = True
+# # response = urllib2.urlopen(product['URL']).read()
+# # soup = BeautifulSoup(response.decode('utf-8'), "html.parser")  #Intializing soup
 
-#Price of the product
-try:
-    newPrice = soup.find(id='priceblock_ourprice').text.strip()
-except:
-    try:
-        newPrice = soup.find(id='priceblock_dealprice').text.strip()
-    except:
-        try:
-            newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
-        except:
-            available = False
-print(available)
-print(newPrice)
-# availability = soup.find(id='availability').text.strip()
-if newPrice == "Currently unavailable.":
-    available = False
-else:
-    available = True
+# #Price of the product
+# try:
+#     newPrice = soup.find(id='priceblock_ourprice').text.strip()
+# except:
+#     try:
+#         newPrice = soup.find(id='priceblock_dealprice').text.strip()
+#     except:
+#         try:
+#             newPrice = soup.find('span', {'class':'a-color-price'}).text.strip()
+#         except:
+#             available = False
+# print(available)
+# print(newPrice)
+# # availability = soup.find(id='availability').text.strip()
+# if newPrice == "Currently unavailable.":
+#     available = False
+# else:
+#     available = True
 
-newPrice = newPrice.replace(",","")
+# newPrice = newPrice.replace(",","")
 
-try:
-    newPriceArr = newPrice.split()
-    newPriceF = float(newPriceArr[1])
-except:
-    try:
-        newPriceF = float(newPrice[1:])
-    except:
-        available = False
-print(available)
-print(newPriceF)
+# try:
+#     newPriceArr = newPrice.split()
+#     newPriceF = float(newPriceArr[1])
+# except:
+#     try:
+#         newPriceF = float(newPrice[1:])
+#     except:
+#         available = False
+# print(available)
+# print(newPriceF)
+
+price = 1000.0
+
+x = "%.2f" % price
+
+print(x)

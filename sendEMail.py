@@ -26,6 +26,8 @@ def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
         ##Creating Message
         msg = MIMEMultipart() 
         msg['From'] = 'Price Watch'
+        
+        newPrice = "%.2f" % newPrice
 
         if newPrice < oldPrice:
             colour = 'rgb(84, 209, 0)'
@@ -80,16 +82,13 @@ def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
                                 target = "_blank"
                             >View Product</a>
                                 <p style="font-size: 13px;  margin-top: 30px; font-family: 'Nunito Sans', sans-serif; font-weight: 600;">Thanks for using Price Watch!</p>
-                                <p style="font-size: 13px;  margin-top: -13px; font-family: 'Nunito Sans', sans-serif; font-weight: 600;">Made by Anton Kanugalawattage, 2019</p>
+                                <p style="font-size: 13px;  margin-top: -13px; font-family: 'Nunito Sans', sans-serif; font-weight: 600;">Made by Anton Kanugalawattage, 2020</p>
                                 </div>
                             </div>
                             <div style="height: 50px; width:100%; background:#37475A; border-radius:0px 0px 23px 23px; font-family: 'Nunito Sans', sans-serif; flex-direction: row;  flex-wrap: wrap;display: flex">
                             <div>
                                 <img src="https://i.imgur.com/hGaCEWT.png" width="auto" height="37px" style="padding:6px">
                             </div>
-                        <!-- <div style="flex-grow: 1"></div>
-                        <p style="margin-top:12px; padding-right:20px; color: rgb(173, 173, 173); font-size: 16px">Contact Us: info@helpinghandsapp.com</p>
-                        </div> -->
                     </div>
                 </body>
                 </html>"""
