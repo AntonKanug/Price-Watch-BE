@@ -26,19 +26,19 @@ def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
         ##Creating Message
         msg = MIMEMultipart() 
         msg['From'] = 'Price Watch'
-        
-        newPrice = "%.2f" % newPrice
 
+        newPriceS = "%.2f" % newPrice
         if newPrice < oldPrice:
             colour = 'rgb(84, 209, 0)'
-            msg['Subject'] = 'Price of ' + title + ' Went Down to $' + str(str(newPrice)) + '!'
+            msg['Subject'] = 'Price of ' + title + ' Went Down to $' + newPriceS + '!'
             msgTitle = 'Price Went Down!'
             sign = ''
         else:
             colour = 'rgb(209, 59, 0)'
-            msg['Subject'] = 'Price of ' + title+  ' Went Up to $' + str(newPrice) + '!'
+            msg['Subject'] = 'Price of ' + title+  ' Went Up to $' + newPriceS + '!'
             msgTitle = 'Price Went Up!'
             sign= '+'
+
         # body = '%s\nPrice changed by %.2f%% \nNew Price: $%.2f\nOld Price: $%.2f \nCheck link: %s\n' % (title, (newPrice - oldPrice)*100/newPrice, newPrice, oldPrice, URL)
         # msg.attach(MIMEText(body, 'plain')) 
         # msg.attach(image)
@@ -57,7 +57,7 @@ def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
                         <div style="margin:20px; margin:auto; margin-top:40px; max-width:360px; padding-left: 15px;">
                         <p style="font-size:30px; font-family: 'Nunito Sans', sans-serif; margin-top:0px; margin-bottom: 0px; font-weight: 800; color: #232F3E" >"""+msgTitle+"""</p>
                         <p style="font-size:15px; font-family: 'Nunito Sans', sans-serif; margin-top:10px; margin-bottom: 10px; font-weight: 800; color: #232F3E">"""+title+"""</p>
-                        <p style="font-size:25px; color:"""+colour+ """;font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >$"""+str(newPrice)+ """</p>
+                        <p style="font-size:25px; color:"""+colour+ """;font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >$"""+newPriceS+ """</p>
                         <p style="font-size:17px; color:"""+colour+ """;font-family: 'Nunito Sans', sans-serif;  font-weight: 800; display: inline;" >("""+sign+str(round( ((newPrice-oldPrice)*100/oldPrice) ,2))+ """%)</p>
                         <a
                         style="padding-top: 0px;
