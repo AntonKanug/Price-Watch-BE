@@ -79,7 +79,7 @@ def newProduct(product, email):
     productTitle = soup.find(id='productTitle').text.strip()
 
     #Rating of the product
-    rating=soup.find('span', {'class':'a-icon-alt'}).text
+    rating=soup.findAll('span', {'class':'a-icon-alt'})[1].text
     try:
         rating = float(rating[0:4])
     except:
