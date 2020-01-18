@@ -11,6 +11,10 @@
 
 [Backend ↗](https://github.com/AntonKanug/Price-Watch-BE) Built Using: `Python, Flask, MongoDB, Requests, BeautifulSoup4, SMTP, Heroku`
 
+## Demo
+
+![image1](https://github.com/AntonKanug/AntonKanug-3.0/blob/master/public/assets/PriceWatch-White.gif)
+
 ## Sample Email
 
 ![image1](https://raw.githubusercontent.com/AntonKanug/Price-Watch-BE/master/assets/sample.png)
