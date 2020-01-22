@@ -98,12 +98,13 @@ def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
 
         for email in emailList:
             ##Sending E-Mail
-            server.sendmail(
-                'noreplyPriceWatch@gmail.com',
-                email,
-                msg.as_string()
-            )
-            print("📤  Email Sent to: %s" % email)
+            if email!=""
+                server.sendmail(
+                    'noreplyPriceWatch@gmail.com',
+                    email,
+                    msg.as_string()
+                )
+                print("📤  Email Sent to: %s" % email)
 
         ##Quit the server
         server.quit
