@@ -11,6 +11,7 @@ from pymongo import MongoClient
 from priceChecker import priceChecker
 from newProduct import newProduct
 from sendEMail import sendEMail
+from removeProduct import removeProduct
 
 app = Flask(__name__)
 CORS(app)
@@ -31,6 +32,12 @@ def products():
 def addProduct():
     productData = request.get_json()
     return newProduct(productData['title'], productData['email'])
+
+
+@app.route('/rmProduct', methods = ['POST'])
+def rmProduct():
+    productData = request.get_json()
+    return removeProduct(int(productData['id']), productData['email'])
 
 @app.route('/priceCheck')
 def priceCheck():
