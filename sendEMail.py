@@ -98,7 +98,7 @@ def sendEMail(id, newPrice, oldPrice, title, URL, image, emailList):
 
         for email in emailList:
             ##Sending E-Mail
-            if email!=""
+            if email!="":
                 server.sendmail(
                     'noreplyPriceWatch@gmail.com',
                     email,
