@@ -50,12 +50,11 @@ def priceChecker():
                         collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
                         continue
 
+            collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
             # availability = soup.find(id='availability').text.strip()
             if newPrice == "Currently unavailable.":
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
                 continue
-            else:
-                collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
 
             newPrice = newPrice.replace(",","")
             
