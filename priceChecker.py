@@ -50,7 +50,6 @@ def priceChecker():
                         collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
                         continue
 
-            collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
             # availability = soup.find(id='availability').text.strip()
             if newPrice == "Currently unavailable.":
                 collection.update_one({'_id': product['_id']}, {'$set': {'available': False}})
@@ -73,7 +72,8 @@ def priceChecker():
             if int(abs((newPriceF - oldPrice)*100/newPriceF)) >= 5 :
                 sendEMail(product['_id'], newPriceF, product['priceToCompare'], product['title'], product['URL'], product['image'], product['emailList'])
                 collection.update_one({'_id': product['_id']}, {'$set': {'priceToCompare': newPriceF}})
-
+                
+            collection.update_one({'_id': product['_id']}, {'$set': {'available': True}})
             #Appending price to list
             collection.update({'_id': product['_id']}, 
             {'$push': {
